@@ -1,0 +1,1572 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-14",
+  "regions": [
+    {
+      "code": "US",
+      "label": "United States / UK",
+      "flag": "🇺🇸"
+    },
+    {
+      "code": "IN",
+      "label": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "code": "DE",
+      "label": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "code": "FR",
+      "label": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "code": "JP",
+      "label": "Japan",
+      "flag": "🇯🇵"
+    },
+    {
+      "code": "KR",
+      "label": "South Korea",
+      "flag": "🇰🇷"
+    },
+    {
+      "code": "ES",
+      "label": "Spain",
+      "flag": "🇪🇸"
+    },
+    {
+      "code": "IT",
+      "label": "Italy",
+      "flag": "🇮🇹"
+    },
+    {
+      "code": "PL",
+      "label": "Poland",
+      "flag": "🇵🇱"
+    },
+    {
+      "code": "EG",
+      "label": "Egypt",
+      "flag": "🇪🇬"
+    }
+  ],
+  "categories": [
+    {
+      "id": "movies",
+      "label": "Movies"
+    },
+    {
+      "id": "tv-shows",
+      "label": "TV Shows"
+    },
+    {
+      "id": "anime",
+      "label": "Anime"
+    },
+    {
+      "id": "manga",
+      "label": "Manga"
+    },
+    {
+      "id": "live-sports",
+      "label": "Live Sports"
+    },
+    {
+      "id": "apps",
+      "label": "Apps"
+    },
+    {
+      "id": "paid",
+      "label": "Paid"
+    }
+  ],
+  "listings": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "category": "movies",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Global streaming library for films, documentaries, and originals."
+    },
+    {
+      "id": "prime-video",
+      "name": "Prime Video",
+      "url": "https://www.primevideo.com",
+      "category": "movies",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon's on-demand film catalog bundled with Prime memberships."
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com",
+      "category": "movies",
+      "region": [
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Disney, Pixar, Marvel, and Star Wars film collections."
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "url": "https://www.hulu.com",
+      "category": "tv-shows",
+      "region": [
+        "US"
+      ],
+      "paymentModel": "subscription",
+      "description": "Next-day broadcast TV, Hulu Originals, and live TV add-ons."
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "url": "https://www.max.com",
+      "category": "tv-shows",
+      "region": [
+        "US",
+        "UK",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "HBO prestige series, Warner Bros. catalogs, and Max Originals."
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com",
+      "category": "tv-shows",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Apple Original series with award-winning episodic storytelling."
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com",
+      "category": "movies",
+      "region": [
+        "US",
+        "UK",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Paramount, CBS, and Nickelodeon film libraries on demand."
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com",
+      "category": "tv-shows",
+      "region": [
+        "US"
+      ],
+      "paymentModel": "ad-supported",
+      "description": "NBCUniversal series with a free ad-supported tier available."
+    },
+    {
+      "id": "tubi",
+      "name": "Tubi",
+      "url": "https://tubitv.com",
+      "category": "movies",
+      "region": [
+        "US",
+        "UK",
+        "EU"
+      ],
+      "paymentModel": "free",
+      "description": "Free ad-supported movies with no subscription required."
+    },
+    {
+      "id": "pluto",
+      "name": "Pluto TV",
+      "url": "https://pluto.tv",
+      "category": "tv-shows",
+      "region": [
+        "US",
+        "UK",
+        "EU"
+      ],
+      "paymentModel": "free",
+      "description": "Free linear channels and on-demand TV without a login."
+    },
+    {
+      "id": "youtube-movies",
+      "name": "YouTube Movies",
+      "url": "https://www.youtube.com/movies",
+      "category": "movies",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "rental",
+      "description": "Rent or buy new releases and catalog titles à la carte."
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com",
+      "category": "anime",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Simulcast anime series, dubs, and the largest anime catalog."
+    },
+    {
+      "id": "hidive",
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com",
+      "category": "anime",
+      "region": [
+        "US",
+        "UK",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Niche simulcasts, classics, and exclusive seasonal anime titles."
+    },
+    {
+      "id": "viz-manga",
+      "name": "VIZ Manga",
+      "url": "https://www.viz.com/shonenjump",
+      "category": "manga",
+      "region": [
+        "US",
+        "UK",
+        "EU"
+      ],
+      "paymentModel": "subscription",
+      "description": "Shonen Jump chapters, VIZ catalog, and same-day chapter drops."
+    },
+    {
+      "id": "manga-plus",
+      "name": "MANGA Plus",
+      "url": "https://mangaplus.shueisha.co.jp",
+      "category": "manga",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "free",
+      "description": "Free same-day Shueisha manga chapters in multiple languages."
+    },
+    {
+      "id": "comixology",
+      "name": "Comixology",
+      "url": "https://www.comixology.com",
+      "category": "manga",
+      "region": [
+        "US",
+        "UK",
+        "EU"
+      ],
+      "paymentModel": "rental",
+      "description": "Digital manga volumes and single-issue purchases via Amazon."
+    },
+    {
+      "id": "tachiyomi",
+      "name": "Tachiyomi",
+      "url": "https://tachiyomi.org",
+      "category": "manga",
+      "region": [
+        "GLOBAL"
+      ],
+      "paymentModel": "free",
+      "description": "Open-source manga reader app with extension-based catalog support."
+    },
+    {
+      "id": "espn-plus",
+      "name": "ESPN+",
+      "url": "https://plus.espn.com",
+      "category": "live-sports",
+      "region": [
+        "US"
+      ],
+      "paymentModel": "subscription",
+      "description": "Live UFC, soccer, hockey, and exclusive ESPN+ event streams."
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "url": "https://www.dazn.com",
+      "category": "live-sports",
+      "region": [
+        "US",
+        "DE",
+        "FR",
+        "ES",
+        "IT",
+        "PL",
+        "EG",
+        "JP"
+      ],
+      "paymentModel": "subscription",
+      "description": "Combat sports, football, and regional live sports packages."
+    },
+    {
+      "id": "f1-tv",
+      "name": "F1 TV",
+      "url": "https://f1tv.formula1.com",
+      "category": "live-sports",
+      "region": [
+        "GLOBAL",
+        "US",
+        "DE",
+        "FR",
+        "ES",
+        "IT",
+        "PL",
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Formula 1 live timing, onboard feeds, and full race replays."
+    },
+    {
+      "id": "jiohotstar",
+      "name": "JioHotstar",
+      "url": "https://www.hotstar.com",
+      "category": "live-sports",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Cricket, IPL, and regional sports live streams for India."
+    },
+    {
+      "id": "sony-liv-sports",
+      "name": "Sony LIV",
+      "url": "https://www.sonyliv.com",
+      "category": "live-sports",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Football, tennis, WWE, and cricket coverage for Indian viewers."
+    },
+    {
+      "id": "bbc-iplayer",
+      "name": "BBC iPlayer",
+      "url": "https://www.bbc.co.uk/iplayer",
+      "category": "live-sports",
+      "region": [
+        "UK"
+      ],
+      "paymentModel": "free",
+      "description": "Free UK public broadcaster streams including live sports events."
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "url": "https://www.plex.tv",
+      "category": "apps",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "free",
+      "description": "Media server app for organizing and streaming personal libraries."
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "url": "https://jellyfin.org",
+      "category": "apps",
+      "region": [
+        "GLOBAL"
+      ],
+      "paymentModel": "free",
+      "description": "Open-source self-hosted media server with no vendor lock-in."
+    },
+    {
+      "id": "stremio",
+      "name": "Stremio",
+      "url": "https://www.stremio.com",
+      "category": "apps",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "EU"
+      ],
+      "paymentModel": "free",
+      "description": "Cross-platform aggregator app for discovering streaming availability."
+    },
+    {
+      "id": "justwatch",
+      "name": "JustWatch",
+      "url": "https://www.justwatch.com",
+      "category": "apps",
+      "region": [
+        "GLOBAL",
+        "US",
+        "UK",
+        "IN",
+        "JP",
+        "EU"
+      ],
+      "paymentModel": "free",
+      "description": "Streaming guide app to find where movies and shows are available."
+    },
+    {
+      "id": "vlc",
+      "name": "VLC Media Player",
+      "url": "https://www.videolan.org/vlc",
+      "category": "apps",
+      "region": [
+        "GLOBAL"
+      ],
+      "paymentModel": "free",
+      "description": "Universal open-source media player for local and network streams."
+    },
+    {
+      "id": "abema",
+      "name": "ABEMA",
+      "url": "https://abema.tv",
+      "category": "anime",
+      "region": [
+        "JP"
+      ],
+      "paymentModel": "free",
+      "description": "Japanese free streaming platform with anime channels and simulcasts."
+    },
+    {
+      "id": "u-next",
+      "name": "U-NEXT",
+      "url": "https://video.unext.jp",
+      "category": "movies",
+      "region": [
+        "JP"
+      ],
+      "paymentModel": "subscription",
+      "description": "Japan's largest on-demand film and drama subscription service."
+    },
+    {
+      "id": "itvx",
+      "name": "ITVX",
+      "url": "https://www.itv.com/watch",
+      "category": "tv-shows",
+      "region": [
+        "UK"
+      ],
+      "paymentModel": "ad-supported",
+      "description": "Free UK catch-up TV from ITV with a premium ad-free upgrade tier."
+    },
+    {
+      "id": "1shows",
+      "name": "1Shows",
+      "url": "https://www.1shows.org/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "1Shows - Movies & Shows platform."
+    },
+    {
+      "id": "1flex",
+      "name": "1Flex",
+      "url": "https://www.1flex.org/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "1Flex - Movies & Shows platform."
+    },
+    {
+      "id": "1tube",
+      "name": "1Tube",
+      "url": "https://www.1tube.org/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "1Tube - Movies & Shows platform."
+    },
+    {
+      "id": "shuttletv",
+      "name": "shuttletv",
+      "url": "https://shuttletv.su/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "shuttletv - Movies & Shows platform."
+    },
+    {
+      "id": "flickystream",
+      "name": "FlickyStream",
+      "url": "https://flickystream.su/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "FlickyStream - Movies & Shows platform."
+    },
+    {
+      "id": "meowtv",
+      "name": "MeowTV",
+      "url": "https://meowtv.ru/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MeowTV - Movies & Shows platform."
+    },
+    {
+      "id": "rivestream",
+      "name": "RiveStream",
+      "url": "https://rivestream.ru/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "RiveStream - Movies & Shows platform."
+    },
+    {
+      "id": "cinemabz",
+      "name": "CinemaBZ",
+      "url": "https://cinema.bz/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "CinemaBZ - Movies & Shows platform."
+    },
+    {
+      "id": "spenflix",
+      "name": "Spenflix",
+      "url": "https://watch.spencerdevs.xyz/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Spenflix - Movies & Shows platform."
+    },
+    {
+      "id": "filmcave",
+      "name": "FilmCave",
+      "url": "https://filmcave.ru/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "FilmCave - Movies & Shows platform."
+    },
+    {
+      "id": "popcornmovies",
+      "name": "popcorn",
+      "url": "https://popcornmovies.io/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "popcorn - Movies & Shows platform."
+    },
+    {
+      "id": "cineby",
+      "name": "Cineby",
+      "url": "https://www.cineby.at/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Cineby - Movies & Shows platform."
+    },
+    {
+      "id": "nepu",
+      "name": "Nepu",
+      "url": "https://nepu.to/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Nepu - Movies & Shows platform."
+    },
+    {
+      "id": "netplayz",
+      "name": "netplayz",
+      "url": "https://netplayz.top/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "netplayz - Movies & Shows platform."
+    },
+    {
+      "id": "hollymoviehd",
+      "name": "HollyMovieHD",
+      "url": "https://hollymoviehd.cc/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "HollyMovieHD - Movies & Shows platform."
+    },
+    {
+      "id": "cinemacity",
+      "name": "CinemaCity",
+      "url": "https://cinemacity.cc/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "CinemaCity - Movies & Shows platform."
+    },
+    {
+      "id": "moviebox",
+      "name": "Moviebox",
+      "url": "https://h5.inmoviebox.com/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Moviebox - Movies & Shows platform."
+    },
+    {
+      "id": "hdtodayz",
+      "name": "HdTodayz",
+      "url": "https://hdtodayz.net/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "HdTodayz - Movies & Shows platform."
+    },
+    {
+      "id": "willow",
+      "name": "Willow",
+      "url": "https://willow.arlen.icu/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Willow - Movies & Shows platform."
+    },
+    {
+      "id": "345movie",
+      "name": "345movie",
+      "url": "https://345movie.nl/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "345movie - Movies & Shows platform."
+    },
+    {
+      "id": "fmovies",
+      "name": "FMovies",
+      "url": "https://fmovies-hd.to/home/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "FMovies - Movies & Shows platform."
+    },
+    {
+      "id": "watchott",
+      "name": "WatchOTT",
+      "url": "https://watchott.ru",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "WatchOTT - Movies & Shows platform."
+    },
+    {
+      "id": "flixway",
+      "name": "Flixway",
+      "url": "https://flixway.ru/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Flixway - Movies & Shows platform."
+    },
+    {
+      "id": "streamingunity",
+      "name": "StreamingUnity",
+      "url": "https://streamingunity.dog",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "StreamingUnity - Movies & Shows platform."
+    },
+    {
+      "id": "reanime",
+      "name": "ReAnime",
+      "url": "https://reanime.to/home",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "ReAnime - Anime platform."
+    },
+    {
+      "id": "miruro",
+      "name": "Miruro",
+      "url": "https://www.miruro.to",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Miruro - Anime platform."
+    },
+    {
+      "id": "animepahe",
+      "name": "animepahe",
+      "url": "https://animepahe.pw/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "animepahe - Anime platform."
+    },
+    {
+      "id": "enma",
+      "name": "Enma",
+      "url": "https://www.enma.lol",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Enma - Anime platform."
+    },
+    {
+      "id": "anikage",
+      "name": "Anikage",
+      "url": "https://anikage.cc/home",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Anikage - Anime platform."
+    },
+    {
+      "id": "anikoto",
+      "name": "Anikoto",
+      "url": "https://anikototv.to",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Anikoto - Anime platform."
+    },
+    {
+      "id": "anidap",
+      "name": "AniDap",
+      "url": "https://anidap.lol/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AniDap - Anime platform."
+    },
+    {
+      "id": "senpaiflix",
+      "name": "SenpaiFlix",
+      "url": "https://senpaiflix.fun/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "SenpaiFlix - Anime platform."
+    },
+    {
+      "id": "animex",
+      "name": "Animex",
+      "url": "https://animex.one/home",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Animex - Anime platform."
+    },
+    {
+      "id": "animenexus",
+      "name": "AnimeNexus",
+      "url": "https://anime.nexus/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AnimeNexus - Anime platform."
+    },
+    {
+      "id": "1anime",
+      "name": "1Anime",
+      "url": "https://1anime.app/discover",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "1Anime - Anime platform."
+    },
+    {
+      "id": "anistream",
+      "name": "Anistream",
+      "url": "https://anistream.one",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Anistream - Anime platform."
+    },
+    {
+      "id": "animetsu",
+      "name": "Animetsu",
+      "url": "https://animetsu.bz",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Animetsu - Anime platform."
+    },
+    {
+      "id": "kickassanime",
+      "name": "KickAssAnime",
+      "url": "https://kaa.lt/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "KickAssAnime - Anime platform."
+    },
+    {
+      "id": "fanime",
+      "name": "FAnime",
+      "url": "https://fanime.tv/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "FAnime - Anime platform."
+    },
+    {
+      "id": "justanime",
+      "name": "Justanime",
+      "url": "https://justanime.to/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Justanime - Anime platform."
+    },
+    {
+      "id": "aniwaves",
+      "name": "AniWaves",
+      "url": "https://aniwaves.ru",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AniWaves - Anime platform."
+    },
+    {
+      "id": "ag48anime",
+      "name": "AG48ANIME",
+      "url": "https://www.ag48anime.site/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AG48ANIME - Anime platform."
+    },
+    {
+      "id": "anidb",
+      "name": "AniDB",
+      "url": "https://anidb.app/home",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AniDB - Anime platform."
+    },
+    {
+      "id": "animeheaven",
+      "name": "Animeheaven",
+      "url": "https://animeheaven.me/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Animeheaven - Anime platform."
+    },
+    {
+      "id": "anitaku",
+      "name": "Anitaku",
+      "url": "https://anitaku.io/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Anitaku - Anime platform."
+    },
+    {
+      "id": "lunaranime",
+      "name": "Lunar",
+      "url": "https://lunaranime.ru/anime",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Lunar - Anime platform."
+    },
+    {
+      "id": "allmanga",
+      "name": "AllManga",
+      "url": "https://allmanga.to/",
+      "category": "anime",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AllManga - Anime platform."
+    },
+    {
+      "id": "mangaball",
+      "name": "MangaBall",
+      "url": "https://mangaball.net/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MangaBall - Manga platform."
+    },
+    {
+      "id": "atsumaru",
+      "name": "Atsu",
+      "url": "https://atsu.moe/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Atsu - Manga platform."
+    },
+    {
+      "id": "onisaga",
+      "name": "Onisaga",
+      "url": "https://onisaga.com/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Onisaga - Manga platform."
+    },
+    {
+      "id": "kagane",
+      "name": "Kagane",
+      "url": "https://kagane.to/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Kagane - Manga platform."
+    },
+    {
+      "id": "comick",
+      "name": "Comick",
+      "url": "https://comick.dev/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Comick - Manga platform."
+    },
+    {
+      "id": "comix",
+      "name": "Comix",
+      "url": "https://comix.to/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Comix - Manga platform."
+    },
+    {
+      "id": "mangadot",
+      "name": "MangaDot",
+      "url": "https://mangadot.net/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MangaDot - Manga platform."
+    },
+    {
+      "id": "qtoon",
+      "name": "Qtoon",
+      "url": "https://qtoon.org/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Qtoon - Manga platform."
+    },
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "url": "https://mangadex.org/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MangaDex - Manga platform."
+    },
+    {
+      "id": "mangago",
+      "name": "Mangago",
+      "url": "https://mangago.me/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Mangago - Manga platform."
+    },
+    {
+      "id": "mangafire",
+      "name": "MangaFire",
+      "url": "https://mangafire.to/home",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MangaFire - Manga platform."
+    },
+    {
+      "id": "mangakakalot",
+      "name": "MangaKakalot",
+      "url": "https://www.mangakakalot.gg/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MangaKakalot - Manga platform."
+    },
+    {
+      "id": "asuracomic",
+      "name": "AsuraComic",
+      "url": "https://asurascans.com/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AsuraComic - Manga platform."
+    },
+    {
+      "id": "readcomiconline",
+      "name": "ReadComicOnline",
+      "url": "https://rcostation.xyz/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "ReadComicOnline - Manga platform."
+    },
+    {
+      "id": "mangahub",
+      "name": "MangaHub",
+      "url": "https://mangahub.io/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MangaHub - Manga platform."
+    },
+    {
+      "id": "weebcentral",
+      "name": "WeebCentral",
+      "url": "https://weebcentral.com/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "WeebCentral - Manga platform."
+    },
+    {
+      "id": "mangakatana",
+      "name": "MangaKatana",
+      "url": "https://mangakatana.com/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MangaKatana - Manga platform."
+    },
+    {
+      "id": "animez",
+      "name": "AnimeZ",
+      "url": "https://likemanga.ink/",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "AnimeZ - Manga platform."
+    },
+    {
+      "id": "mangaxo",
+      "name": "Mangaxo",
+      "url": "https://mangaxo.com/home",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Mangaxo - Manga platform."
+    },
+    {
+      "id": "king-of-shojo",
+      "name": "King of Shojo",
+      "url": "https://kingofshojo.com",
+      "category": "manga",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "King of Shojo - Manga platform."
+    },
+    {
+      "id": "daddylive",
+      "name": "DaddyLive",
+      "url": "https://dlhd.st/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "DaddyLive - Live TV & Sports platform."
+    },
+    {
+      "id": "damitv",
+      "name": "DAMITV",
+      "url": "https://dami-tv.pro/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "DAMITV - Live TV & Sports platform."
+    },
+    {
+      "id": "streamed",
+      "name": "Streamed.PK",
+      "url": "https://streamed.pk/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Streamed.PK - Live TV & Sports platform."
+    },
+    {
+      "id": "sportplus",
+      "name": "Sport+",
+      "url": "https://en97.sportplus.watch/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Sport+ - Live TV & Sports platform."
+    },
+    {
+      "id": "thetvapp",
+      "name": "TheTvApp",
+      "url": "https://thetvapptv.com",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "TheTvApp - Live TV & Sports platform."
+    },
+    {
+      "id": "ntv",
+      "name": "NTVStream",
+      "url": "https://ntv.cx",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "NTVStream - Live TV & Sports platform."
+    },
+    {
+      "id": "publiciptv",
+      "name": "PublicIPTV",
+      "url": "https://publiciptv.com/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "PublicIPTV - Live TV & Sports platform."
+    },
+    {
+      "id": "streameast",
+      "name": "StreamEast",
+      "url": "https://streameastnow.net/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "StreamEast - Live TV & Sports platform."
+    },
+    {
+      "id": "istreameast",
+      "name": "iStreamEast",
+      "url": "https://thestreameast.top/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "iStreamEast - Live TV & Sports platform."
+    },
+    {
+      "id": "sportsurge",
+      "name": "SportSurge",
+      "url": "https://v2.sportsurge.net/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "SportSurge - Live TV & Sports platform."
+    },
+    {
+      "id": "tvgarden",
+      "name": "TV Garden",
+      "url": "https://famelack.com/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "TV Garden - Live TV & Sports platform."
+    },
+    {
+      "id": "rivestream",
+      "name": "RiveStream Sports",
+      "url": "https://rivestream.ru/livesports/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "RiveStream Sports - Live TV & Sports platform."
+    },
+    {
+      "id": "sportsbite",
+      "name": "Sportsbite",
+      "url": "https://sportsbite.org/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Sportsbite - Live TV & Sports platform."
+    },
+    {
+      "id": "stmify",
+      "name": "Stmify",
+      "url": "https://stmify.com/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Stmify - Live TV & Sports platform."
+    },
+    {
+      "id": "ppv",
+      "name": "ppv.to",
+      "url": "https://ppv.st/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "ppv.to - Live TV & Sports platform."
+    },
+    {
+      "id": "fifstream1",
+      "name": "fifstream1",
+      "url": "https://fifstream1.gt.tc/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "fifstream1 - Live TV & Sports platform."
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "url": "https://www.shudder.com/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "subscription",
+      "description": "Shudder - Paid Services platform."
+    },
+    {
+      "id": "viki",
+      "name": "Viki",
+      "url": "https://www.viki.com/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "subscription",
+      "description": "Viki - Paid Services platform."
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon Prime - Paid Services platform."
+    },
+    {
+      "id": "mgm+",
+      "name": "MGM+",
+      "url": "https://www.mgmplus.com/",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "subscription",
+      "description": "MGM+ - Paid Services platform."
+    },
+    {
+      "id": "amc+",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/login",
+      "category": "movies",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "subscription",
+      "description": "AMC+ - Paid Services platform."
+    },
+    {
+      "id": "playtorrio",
+      "name": "Playtorrio",
+      "url": "https://playtorrio.pages.dev/",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Playtorrio - Apps platform."
+    },
+    {
+      "id": "onstream",
+      "name": "OnStream APKs",
+      "url": "https://onstreamapks.app/",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "OnStream APKs - Apps platform."
+    },
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "url": "https://beetvs.com.co/",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "BeeTV - Apps platform."
+    },
+    {
+      "id": "hdobox",
+      "name": "HDO Box",
+      "url": "https://hdobox.net/",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "HDO Box - Apps platform."
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "url": "https://netmirror.gg/2/en",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Apps platform."
+    },
+    {
+      "id": "pikashow",
+      "name": "PikaShow",
+      "url": "https://pikashowtv.in/",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "PikaShow - Apps platform."
+    },
+    {
+      "id": "mobiflix",
+      "name": "MobiFlix",
+      "url": "https://mobiflix.tv/",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "MobiFlix - Apps platform."
+    },
+    {
+      "id": "youcine",
+      "name": "YouCine",
+      "url": "https://youcineapkpro.com/",
+      "category": "tv-shows",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "YouCine - Live TV platform."
+    },
+    {
+      "id": "playfy",
+      "name": "PlayFy",
+      "url": "https://playfy.live/",
+      "category": "apps",
+      "region": [
+        "Global"
+      ],
+      "paymentModel": "free",
+      "description": "PlayFy - Apps platform."
+    }
+  ]
+}
