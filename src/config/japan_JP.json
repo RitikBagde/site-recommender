@@ -318,6 +318,67 @@
       "paymentModel": "free",
       "description": "Kiss KH - Anime platform.",
       "enabled": true
+    },
+    {
+      "id": "vortex-scans",
+      "name": "Vortex Scans",
+      "url": "https://vortexscans.org/",
+      "category": "manga",
+      "region": [
+        "JP"
+      ],
+      "paymentModel": "free",
+      "description": "Vortex Scans - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "hivetoon",
+      "name": "HiveToon",
+      "url": "https://hivetoon.com/",
+      "category": "manga",
+      "region": [
+        "JP"
+      ],
+      "paymentModel": "free",
+      "description": "HiveToon - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "manga-dex",
+      "name": "MangaDex",
+      "url": "https://mangadex.org/",
+      "category": "manga",
+      "region": [
+        "JP"
+      ],
+      "paymentModel": "free",
+      "description": "MangaDex - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "kissasian",
+      "name": "KissAsian",
+      "url": "https://kissasian.cam/",
+      "category": "movies",
+      "region": [
+        "KR", "JP", "IN"
+      ],
+      "paymentModel": "free",
+      "description": "KissAsian - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "dramacool",
+      "name": "DramaCool",
+      "url": "https://dramacool9.com.ro/",
+      "category": "movies",
+      "region": [
+        "KR",
+        "JP"
+      ],
+      "paymentModel": "free",
+      "description": "DramaCool - Asian dramas, movies & shows platform.",
+      "enabled": true
     }
   ]
 }

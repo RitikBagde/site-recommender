@@ -667,6 +667,57 @@
       "paymentModel": "free",
       "description": "Anime Salt - Anime platform.",
       "enabled": true
-    }  
+    },
+    {
+      "id": "vortex-scans",
+      "name": "Vortex Scans",
+      "url": "https://vortexscans.org/",
+      "category": "manga",
+      "region": [
+        "JP", "KR",
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Vortex Scans - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "hivetoon",
+      "name": "HiveToon",
+      "url": "https://hivetoon.com/",
+      "category": "manga",
+      "region": [
+        "JP","KR",
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "HiveToon - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "url": "https://mangadex.org/",
+      "category": "manga",
+      "region": [
+        "IN","KR",
+        "JP"
+      ],
+      "paymentModel": "free",
+      "description": "MangaDex - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "pratilipi-comics",
+      "name": "Pratilipi Comics",
+      "url": "https://pratilipicomics.com/english",
+      "category": "manga",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Pratilipi Comics - Manga platform.",
+      "enabled": true
+    }
   ]
 }
