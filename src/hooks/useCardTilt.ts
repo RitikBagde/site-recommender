@@ -4,6 +4,10 @@ import { useCallback, useEffect, useRef } from "react";
 
 const MAX_TILT = 24;
 
+function isTouchDevice() {
+  return typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches;
+}
+
 export function useCardTilt<T extends HTMLElement>() {
   const tiltRef = useRef<T>(null);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -39,6 +43,8 @@ export function useCardTilt<T extends HTMLElement>() {
   }, []);
 
   useEffect(() => {
+    if (isTouchDevice()) return; // ponytail: skip tilt on mobile to preserve scroll
+
     const tilt = tiltRef.current;
     if (!tilt) return;
 

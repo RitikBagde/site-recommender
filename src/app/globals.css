@@ -216,9 +216,6 @@
 }
 
 /* ── transitions-dev: card hover tilt (19) ───────────────────────── */
-.t-tilt {
-  touch-action: none;
-}
 
 .t-tilt-card {
   position: relative;
