@@ -29,6 +29,12 @@ const categoryMeta: Array<{
   icon: ElementType;
 }> = [
   {
+    id: "movies",
+    label: "Movies & Shows",
+    description: "On-demand films, series, and cinematic bundles",
+    icon: Film,
+  },
+  {
     id: "anime",
     label: "Anime",
     description: "Anime streaming and aggregators",
@@ -45,12 +51,6 @@ const categoryMeta: Array<{
     label: "Live TV & Sports",
     description: "Live broadcasts, sports channels, and event streams",
     icon: Trophy,
-  },
-  {
-    id: "movies",
-    label: "Movies & Shows",
-    description: "On-demand films, series, and cinematic bundles",
-    icon: Film,
   },
   {
     id: "tv-shows",
