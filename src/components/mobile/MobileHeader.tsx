@@ -91,37 +91,7 @@ export function MobileHeader({
               className="h-9 border-0 bg-transparent"
             />
           </div>
-          <div className="hidden md:flex gap-2 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            <button
-              type="button"
-              onClick={() => onRegionChange("ALL")}
-              className={cn(
-                "rounded-full border px-2.5 py-1 text-xs font-medium transition-colors",
-                activeRegion === "ALL"
-                  ? "border-brand-glow bg-brand-glow/12 text-primary"
-                  : "border-brand-border bg-brand-bg text-muted hover:text-primary",
-              )}
-            >
-              🌐 All regions
-            </button>
-            {regions.map((region) => (
-              <button
-                key={region.code}
-                type="button"
-                onClick={() => onRegionChange(region.code)}
-                className={cn(
-                  "rounded-full border px-2.5 py-1 text-xs font-medium transition-colors",
-                  activeRegion === region.code
-                    ? "border-brand-glow bg-brand-glow/12 text-primary"
-                    : "border-brand-border bg-brand-bg text-muted hover:text-primary",
-                )}
-              >
-                {region.flag ? `${region.flag} ${region.label}` : region.label}
-              </button>
-            ))}
-          </div>
-
-          <div ref={regionRef} className="relative block md:hidden">
+          <div ref={regionRef} className="relative block">
             <button
               type="button"
               onClick={() => setRegionOpen((v) => !v)}

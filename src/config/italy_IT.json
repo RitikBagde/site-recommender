@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-19",
+  "listings": [
+    {
+      "id": "cineblog01",
+      "name": "Cineblog01",
+      "url": "https://cineblog001.trade/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "Cineblog01 - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "altadefinizione",
+      "name": "Altadefinizione",
+      "url": "https://summerlandfestival.it/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "Altadefinizione - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "streamingunity",
+      "name": "streamingcommunityz",
+      "url": "https://streamingcommunityz.red/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "streamingcommunityz - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "animeunity",
+      "name": "animeunity",
+      "url": "https://www.animeunity.so",
+      "category": "anime",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "animeunity - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "url": "https://www.dazn.com",
+      "category": "live-sports",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "DAZN - Live TV & Sports platform.",
+      "enabled": true
+    },
+    {
+      "id": "disneyhotstar",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/identity/login/",
+      "category": "paid",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Disney+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "url": "https://www.shudder.com/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Shudder - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "url": "https://auth.hulu.com/web/login/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Hulu - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Netflix - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "viki",
+      "name": "Viki",
+      "url": "https://www.viki.com/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Viki - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "max",
+      "name": "MAX",
+      "url": "https://www.hbomax.com/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "MAX - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Apple TV+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon Prime - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/intl",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Paramount+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "url": "https://crunchyroll.com/login",
+      "category": "paid",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Crunchyroll - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "mgm+",
+      "name": "MGM+",
+      "url": "https://www.mgmplus.com/",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "MGM+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com/unavailable",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "Peacock - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amc+",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/login",
+      "category": "movies",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "subscription",
+      "description": "AMC+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "playtorrio",
+      "name": "Playtorrio",
+      "url": "https://playtorrio.pages.dev/",
+      "category": "apps",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "Playtorrio - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "onstream",
+      "name": "OnStream APKs",
+      "url": "https://onstreamapks.app/home",
+      "category": "apps",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "OnStream APKs - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "hdobox",
+      "name": "HDO Box",
+      "url": "https://hdobox.net/",
+      "category": "apps",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "HDO Box - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "url": "https://beetvs.com.co/",
+      "category": "apps",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "BeeTV - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "url": "https://netmirror.gg/10/en-in",
+      "category": "apps",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "pikashow",
+      "name": "PikaShow",
+      "url": "https://pikashowtv.in/",
+      "category": "apps",
+      "region": [
+        "IT"
+      ],
+      "paymentModel": "free",
+      "description": "PikaShow - Apps platform.",
+      "enabled": true
+    }
+  ]
+}

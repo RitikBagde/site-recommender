@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-19",
+  "listings": [
+    {
+      "id": "egybest",
+      "name": "EgyBest",
+      "url": "https://egybesst.bond/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "EgyBest - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "alooytv",
+      "name": "Alooytv",
+      "url": "https://fitnur.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "Alooytv - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "akwam",
+      "name": "akwam",
+      "url": "https://akwam.it/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "akwam - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "arabic-toons",
+      "name": "arabic-toons",
+      "url": "https://www.arabic-toons.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "arabic-toons - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "stardima-ir",
+      "name": "stardima-ir",
+      "url": "https://stardima-ir.cartoon.com.im/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "stardima-ir - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "cartoony",
+      "name": "cartoony",
+      "url": "https://cartoony.net/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "cartoony - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "carateen",
+      "name": "carateen",
+      "url": "https://carateen.tv/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "carateen - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "topcinma",
+      "name": "carateen",
+      "url": "https://topcinma.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "carateen - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "movizland",
+      "name": "movizlands",
+      "url": "https://w3.movizlands.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "movizlands - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "arabic-toons-anime",
+      "name": "arabic-toons",
+      "url": "https://www.arabic-toons.com/",
+      "category": "anime",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "arabic-toons - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "spacepowerfan",
+      "name": "spacepowerfan",
+      "url": "https://spacepowerfan.com/",
+      "category": "anime",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "spacepowerfan - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "stardima-ir-anime",
+      "name": "stardima-ir",
+      "url": "https://stardima-ir.cartoon.com.im/",
+      "category": "anime",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "stardima-ir - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "cartoony-anime",
+      "name": "cartoony",
+      "url": "https://cartoony.net/",
+      "category": "anime",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "cartoony - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "carateen-anime",
+      "name": "carateen",
+      "url": "https://carateen.tv/",
+      "category": "anime",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "carateen - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animezid",
+      "name": "animezid",
+      "url": "https://animezid.cam/index.php",
+      "category": "anime",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "animezid - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "arabictv",
+      "name": "ArabicTV Watch",
+      "url": "https://arabictvwatch.tv/",
+      "category": "live-sports",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "ArabicTV Watch - Live TV & Sports platform.",
+      "enabled": true
+    },
+    {
+      "id": "disneyhotstar",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/identity/login/",
+      "category": "paid",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Disney+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "url": "https://www.shudder.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Shudder - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "url": "https://auth.hulu.com/web/login/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Next-day broadcast TV, Hulu Originals, and live TV add-ons.",
+      "enabled": true
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Netflix - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "viki",
+      "name": "Viki",
+      "url": "https://www.viki.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Viki - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "max",
+      "name": "MAX",
+      "url": "https://www.hbomax.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "MAX - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Apple TV+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon Prime - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/intl",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Paramount+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "url": "https://crunchyroll.com/login",
+      "category": "paid",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Crunchyroll - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "mgm+",
+      "name": "MGM+",
+      "url": "https://www.mgmplus.com/",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "MGM+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com/unavailable",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "Peacock - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amc+",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/login",
+      "category": "movies",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "subscription",
+      "description": "AMC+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "fasselhd",
+      "name": "FasselHD",
+      "url": "https://fasselhd.com/",
+      "category": "apps",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "FasselHD - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "playtorrio",
+      "name": "Playtorrio",
+      "url": "https://playtorrio.pages.dev/",
+      "category": "apps",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "Playtorrio - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "onstream",
+      "name": "OnStream APKs",
+      "url": "https://onstreamapks.app/home",
+      "category": "apps",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "OnStream APKs - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "hdobox",
+      "name": "HDO Box",
+      "url": "https://hdobox.net/",
+      "category": "apps",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "HDO Box - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "url": "https://beetvs.com.co/",
+      "category": "apps",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "BeeTV - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "url": "https://netmirror.gg/10/en-in",
+      "category": "apps",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "pikashow",
+      "name": "PikaShow",
+      "url": "https://pikashowtv.in/",
+      "category": "apps",
+      "region": [
+        "EG"
+      ],
+      "paymentModel": "free",
+      "description": "PikaShow - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "egydead",
+      "name": "egydead",
+      "url": "https://tv10.egydead.live/",
+      "category": "movies",
+      "region": ["EG"],
+      "paymentModel": "free",
+      "description": "egydead - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "moviebox",
+      "name": "MovieBox",
+      "url": "https://www.moviesbox.com.co/home/",
+      "category": "apps",
+      "region": ["EG"],
+      "paymentModel": "free",
+      "description": "MovieBox - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "playfy",
+      "name": "PlayFy",
+      "url": "https://playfy.live/",
+      "category": "apps",
+      "region": ["EG"],
+      "paymentModel": "free",
+      "description": "PlayFy - Apps platform.",
+      "enabled": true
+    }
+  ]
+}

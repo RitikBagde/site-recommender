@@ -132,10 +132,7 @@ export function DirectoryGrid({
 
                 <div className="flex items-center gap-2">
                   <span className="rounded-pill border border-brand-border bg-brand-bg/60 px-2.5 py-1 text-xs font-medium text-primary">
-                    {section.label} {section.items.length}
-                  </span>
-                  <span className="hidden text-xs text-muted sm:block">
-                    {section.description}
+                    {section.items.length}
                   </span>
                 </div>
               </div>

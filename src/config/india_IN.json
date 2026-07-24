@@ -1,0 +1,672 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-19",
+  "listings": [
+    {
+      "id": "bollyflix-movies",
+      "name": "Bollyflix",
+      "url": "https://bollyflix.at/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Bollyflix - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "movierulz",
+      "name": "MovieRulz",
+      "url": "https://www.5movierulz.vote/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "MovieRulz - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "vegamovies",
+      "name": "Vegamovies",
+      "url": "https://vegamovie.la/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Vegamovies - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "hindilinks4u",
+      "name": "HINDILINKS4U",
+      "url": "https://hindilinks4u.ventures/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "HINDILINKS4U - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "multimovies",
+      "name": "Multi movies",
+      "url": "https://multimovies.wtf/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Multi movies - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "movies4u",
+      "name": "movies4u",
+      "url": "https://new1.movies4u.clinic/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "movies4u - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "moviesmod",
+      "name": "moviesmod",
+      "url": "https://moviesmod.at/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "moviesmod - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "world4u",
+      "name": "world4u",
+      "url": "https://world4ufree.im/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "world4u - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror",
+      "name": "netmirror",
+      "url": "https://net77.cc/home",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "netmirror - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "hindinks4u",
+      "name": "Hindinks4U",
+      "url": "https://hindilinks4u.ventures/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Hindinks4U - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "alooytv",
+      "name": "Alooytv",
+      "url": "https://fitnur.com/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Alooytv - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "yupflix",
+      "name": "yupflix",
+      "url": "https://watch.yupflix.org/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "yupflix - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "1tamilblasters",
+      "name": "1tamilblasters",
+      "url": "https://www.1tamilblasters.pro/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "1tamilblasters - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "cinephile",
+      "name": "cinephile",
+      "url": "https://cinephile.live/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "cinephile - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "ag48anime",
+      "name": "AG48 ANIME",
+      "url": "https://www.ag48anime.site/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "AG48 ANIME - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animejoker",
+      "name": "AnimeJoker",
+      "url": "https://animejoker.com/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "AnimeJoker - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "blakiteanime",
+      "name": "blakiteanime",
+      "url": "https://www.subdubanime.site/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "blakiteanime - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "anime4u",
+      "name": "Anime4u",
+      "url": "https://anime4u.site/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Anime4u - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animedrive",
+      "name": "AnimeDrive",
+      "url": "https://animedrive.in/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "AnimeDrive - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "desidubanime",
+      "name": "DesiDubAnime",
+      "url": "https://www.desidubanime.me/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "DesiDubAnime - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animedekho",
+      "name": "animedekho",
+      "url": "https://animedekho.app/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "animedekho - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animelok",
+      "name": "Anime Lok",
+      "url": "https://animelok.net/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Anime Lok - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animepahe",
+      "name": "Animepahe",
+      "url": "https://animepahe.pw/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Animepahe - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "rare-toons-india",
+      "name": "RARE TOONS INDIA",
+      "url": "https://www.rareanimes.mov/",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "RARE TOONS INDIA - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "anime-sogo",
+      "name": "AnimeSogo",
+      "url": "https://animesogo.to/home",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "AnimeSogo - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "natomanga",
+      "name": "natomanga",
+      "url": "https://www.natomanga.com/",
+      "category": "manga",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "natomanga - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "taranga-plus",
+      "name": "Taranga Plus",
+      "url": "https://tarangplus.in/",
+      "category": "live-sports",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Taranga Plus - Live TV & Sports platform.",
+      "enabled": true
+    },
+    {
+      "id": "disneyhotstar",
+      "name": "Disney+HotStar",
+      "url": "https://www.hotstar.com/in",
+      "category": "paid",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Disney+HotStar - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "yupptv",
+      "name": "yupptytv.com",
+      "url": "https://www.yupptv.com/channels",
+      "category": "paid",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "yupptytv.com - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Netflix - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "viki",
+      "name": "Viki",
+      "url": "https://www.viki.com/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Viki - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "max",
+      "name": "MAX",
+      "url": "https://www.hbomax.com/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "MAX - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Apple TV+ - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon Prime - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/intl",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Paramount+ - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "url": "https://crunchyroll.com/login",
+      "category": "anime",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "Crunchyroll - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "mgm+",
+      "name": "MGM+",
+      "url": "https://www.mgmplus.com/",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "MGM+ - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "amc+",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/login",
+      "category": "movies",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "AMC+ - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "jiohotstar",
+      "name": "JioHotstar",
+      "url": "https://www.hotstar.com/in",
+      "category": "live-sports",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "JioHotstar - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "ahavideo",
+      "name": "AhaVideo",
+      "url": "https://www.aha.video/",
+      "category": "paid",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "subscription",
+      "description": "AhaVideo - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "playtorrio",
+      "name": "Playtorrio",
+      "url": "https://playtorrio.pages.dev/",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "Playtorrio - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "onstream",
+      "name": "OnStream APKs",
+      "url": "https://onstreamapks.app/home",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "OnStream APKs - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "uvo",
+      "name": "star sports",
+      "url": "https://uvotv.com/",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "star sports - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "hdobox",
+      "name": "HDO Box",
+      "url": "https://hdobox.net/",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "HDO Box - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "url": "https://beetvs.com.co/",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "BeeTV - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror-apps",
+      "name": "NetMirror",
+      "url": "https://netmirror.gg/10/en-in",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "pikashow",
+      "name": "PikaShow",
+      "url": "https://pikashowtv.in/",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "PikaShow - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "youcine",
+      "name": "YouCine",
+      "url": "https://youcineapkpro.com/",
+      "category": "apps",
+      "region": [
+        "IN"
+      ],
+      "paymentModel": "free",
+      "description": "YouCine - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "pr-movies",
+      "name": "PRMOVIES",
+      "url": "https://prmovies.farm/",
+      "category": "movies",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "PRMOVIES - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "desicinemas",
+      "name": "Desicinemas",
+      "url": "https://desicinemas.pk/",
+      "category": "movies",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "Desicinemas - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "moviesbazar",
+      "name": "Movies Bazar",
+      "url": "https://www.moviesbazar.su/",
+      "category": "movies",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "Movies Bazar - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "netnaija",
+      "name": "NETNINJA",
+      "url": "https://netnaija.film",
+      "category": "movies",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "NETNINJA - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "kmmovies",
+      "name": "KMMovies",
+      "url": "https://kmmovies.life/",
+      "category": "movies",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "KMMovies - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "hdhub4u",
+      "name": "hdhub4u",
+      "url": "https://new1.hdhub4u.limo/?utm=mn1",
+      "category": "movies",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "hdhub4u - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "thenextplanet",
+      "name": "TheNextplanet",
+      "url": "https://www.thenextplanet.surf/",
+      "category": "movies",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "TheNextplanet - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "watchanimeworld",
+      "name": "WatchAnimeWorld",
+      "url": "https://watchanimeworld.net/",
+      "category": "anime",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "WatchAnimeWorld - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animesalt",
+      "name": "Anime Salt",
+      "url": "https://animesalt.ac/",
+      "category": "anime",
+      "region": ["IN"],
+      "paymentModel": "free",
+      "description": "Anime Salt - Anime platform.",
+      "enabled": true
+    }  
+  ]
+}

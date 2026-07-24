@@ -1,4 +1,6 @@
 import localDatasource from "@/config/listing.datasource.json";
+import { readFileSync, readdirSync } from "node:fs";
+import { resolve } from "node:path";
 import { getSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import type {
   DataSourceMeta,
@@ -25,7 +27,40 @@ const VALID_PAYMENT: PaymentModel[] = [
 ];
 
 function getLocalDatasource(): ListingDatasource {
-  return localDatasource as ListingDatasource;
+  const meta = localDatasource as ListingDatasource;
+  const configDir = resolve(process.cwd(), "src", "config");
+
+  const files = readdirSync(configDir).filter(
+    (f) => f.endsWith(".json") && f !== "listing.datasource.json",
+  );
+  const allListings: PlatformListing[] = [];
+
+  for (const file of files) {
+    const raw = readFileSync(resolve(configDir, file), "utf-8");
+    const data = JSON.parse(raw);
+    if (!Array.isArray(data.listings)) continue;
+
+    const regionCode = file.replace(/\.json$/, "").split("_").pop()?.toUpperCase() ?? "GLOBAL";
+
+    for (const entry of data.listings) {
+      if (entry.enabled === false) continue;
+      const normalized = normalizeListing(entry);
+      if (!normalized) continue;
+      normalized.region = normalized.region.map((r) => r.toUpperCase());
+      normalized._source = regionCode;
+      allListings.push(normalized);
+    }
+  }
+
+  for (const entry of meta.listings) {
+    const normalized = normalizeListing(entry as unknown as Record<string, unknown>);
+    if (!normalized) continue;
+    normalized.region = normalized.region.map((r) => r.toUpperCase());
+    normalized._source = "GLOBAL";
+    allListings.push(normalized);
+  }
+
+  return { ...meta, listings: allListings };
 }
 
 function normalizeListing(row: Record<string, unknown>): PlatformListing | null {
@@ -77,8 +112,12 @@ async function fetchFromSupabase(): Promise<ListingDatasource | null> {
     .from("platform_listings")
     .select("id,name,url,category,region,payment_model,description");
 
-  if (error || !data?.length) {
-    console.error("[WhereWatch] Supabase listings fetch failed:", error?.message);
+  if (error) {
+    console.error("[WhereWatch] Supabase listings fetch failed:", error.message);
+    return null;
+  }
+
+  if (!data?.length) {
     return null;
   }
 

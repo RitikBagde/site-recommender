@@ -39,6 +39,7 @@ export interface PlatformListing {
   paymentModel: PaymentModel;
 
   description?: string;
+  _source?: string;
 
 }
 

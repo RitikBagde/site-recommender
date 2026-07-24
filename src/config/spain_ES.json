@@ -1,0 +1,354 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-19",
+  "listings": [
+    {
+      "id": "inkapelis",
+      "name": "Inkapelis",
+      "url": "https://inkapelis.cyou",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "Movies - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "sololatino",
+      "name": "SoloLatino",
+      "url": "https://sololatino.net/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "SoloLatino - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "gdrivelatino",
+      "name": "GDriveLatino",
+      "url": "https://www.gdrivelatino.net/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "GDriveLatino - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "url": "https://net77.cc/home",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "flixlatam",
+      "name": "Flixlatam",
+      "url": "https://flixlatam.com/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "Felixlatam - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "animeav",
+      "name": "animeav",
+      "url": "https://animeav1.com",
+      "category": "anime",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "animeav - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animeytx",
+      "name": "animeytx",
+      "url": "https://wwv.animeytx.net/",
+      "category": "anime",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "animeytx - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "anime-ninja",
+      "name": "anime ninja",
+      "url": "https://ver.animeonline.ninja/",
+      "category": "anime",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "anime ninja - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "veranimeonline",
+      "name": "veranimeonline",
+      "url": "https://veranimeonline.co/",
+      "category": "anime",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "veranimeonline - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "mangavault",
+      "name": "MangaVault",
+      "url": "https://mangavault.lat/",
+      "category": "manga",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "MangaVault - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "disneyhotstar",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/identity/login/",
+      "category": "paid",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Disney+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "url": "https://www.shudder.com/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Shudder - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "url": "https://auth.hulu.com/web/login/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Hulu - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Netflix - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "viki",
+      "name": "Viki",
+      "url": "https://www.viki.com/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Viki - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "max",
+      "name": "MAX",
+      "url": "https://www.hbomax.com/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "MAX - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Apple TV+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon Prime - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/intl",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Paramount+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "url": "https://crunchyroll.com/login",
+      "category": "paid",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Crunchyroll - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "mgm+",
+      "name": "MGM+",
+      "url": "https://www.mgmplus.com/",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "MGM+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com/unavailable",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "Peacock - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amc+",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/login",
+      "category": "movies",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "subscription",
+      "description": "AMC+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "playtorrio",
+      "name": "Playtorrio",
+      "url": "https://playtorrio.pages.dev/",
+      "category": "apps",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "Playtorrio - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "onstream",
+      "name": "OnStream APKs",
+      "url": "https://onstreamapks.app/home",
+      "category": "apps",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "OnStream APKs - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "hdobox",
+      "name": "HDO Box",
+      "url": "https://hdobox.net/",
+      "category": "apps",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "HDO Box - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "url": "https://beetvs.com.co/",
+      "category": "apps",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "BeeTV - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror-apps",
+      "name": "NetMirror",
+      "url": "https://netmirror.gg/10/en-in",
+      "category": "apps",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "pikashow",
+      "name": "PikaShow",
+      "url": "https://pikashowtv.in/",
+      "category": "apps",
+      "region": [
+        "ES"
+      ],
+      "paymentModel": "free",
+      "description": "PikaShow - Apps platform.",
+      "enabled": true
+    }
+  ]
+}

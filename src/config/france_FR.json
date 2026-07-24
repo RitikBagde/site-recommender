@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-19",
+  "listings": [
+    {
+      "id": "tv5mondeplus",
+      "name": "tv5mondeplus",
+      "url": "https://www.tv5mondeplus.com/fr",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "tv5mondeplus - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "yablom",
+      "name": "yablom",
+      "url": "https://yablom.com/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "yablom - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "tf1",
+      "name": "Tf1",
+      "url": "https://www.tf1.fr/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Tf1 - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "fawesome",
+      "name": "Fawesome",
+      "url": "https://fawesome.tv/category/82798/french",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Fawesome - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "voiranime",
+      "name": "VoirAnime",
+      "url": "https://voir-anime.to/",
+      "category": "anime",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "VoirAnime - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "animesultra",
+      "name": "AnimesUltra",
+      "url": "https://ww.animesultra.org/",
+      "category": "anime",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "AnimesUltra - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "vostfree",
+      "name": "VostFree",
+      "url": "https://vostfree.ws/",
+      "category": "anime",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "VostFree - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "sekai",
+      "name": "Sekai",
+      "url": "https://sekai.one/?v=15",
+      "category": "anime",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Sekai - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "mugiwaranostreaming",
+      "name": "MugiwaraNoStreaming",
+      "url": "https://www.mugiwara-no-streaming.com/",
+      "category": "anime",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "MugiwaraNoStreaming - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "anime-sama",
+      "name": "Anime Sama",
+      "url": "https://anime-sama.to/",
+      "category": "anime",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Anime Sama - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "sushiscan",
+      "name": "Sushiscan",
+      "url": "https://sushiscan.net/",
+      "category": "manga",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Sushiscan - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "manga-scantrad",
+      "name": "Manga Scantrad",
+      "url": "https://manga-scantrad.io/",
+      "category": "manga",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Manga Scantrad - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "manga-origines",
+      "name": "Manga Origines",
+      "url": "https://mangas-origines.fr/",
+      "category": "manga",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Manga Origines - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "phenix-scans",
+      "name": "Phenix Scans",
+      "url": "https://phenix-scans.co/",
+      "category": "manga",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Phenix Scans - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "lelmanga",
+      "name": "Lelmanga",
+      "url": "https://www.lelmanga.com/",
+      "category": "manga",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Lelmanga - Manga platform.",
+      "enabled": true
+    },
+    {
+      "id": "arte-tv",
+      "name": "Arte TV",
+      "url": "https://www.arte.tv/en/",
+      "category": "live-sports",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Arte TV - Live TV & Sports platform.",
+      "enabled": true
+    },
+    {
+      "id": "disneyhotstar",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/identity/login/",
+      "category": "paid",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Disney+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "url": "https://www.shudder.com/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Shudder - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "url": "https://auth.hulu.com/web/login/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Hulu - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/browse/genre/100378",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Netflix - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "viki",
+      "name": "Viki",
+      "url": "https://www.viki.com/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Viki - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "max",
+      "name": "MAX",
+      "url": "https://www.hbomax.com/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "MAX - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Apple TV+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon Prime - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/intl",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Paramount+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "url": "https://crunchyroll.com/login",
+      "category": "paid",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Crunchyroll - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "mgm+",
+      "name": "MGM+",
+      "url": "https://www.mgmplus.com/",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "MGM+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com/unavailable",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "Peacock - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amc+",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/login",
+      "category": "movies",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "subscription",
+      "description": "AMC+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "playtorrio",
+      "name": "Playtorrio",
+      "url": "https://playtorrio.pages.dev/",
+      "category": "apps",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "Playtorrio - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "onstream",
+      "name": "OnStream APKs",
+      "url": "https://onstreamapks.app/home",
+      "category": "apps",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "OnStream APKs - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "hdobox",
+      "name": "HDO Box",
+      "url": "https://hdobox.net/",
+      "category": "apps",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "HDO Box - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "url": "https://beetvs.com.co/",
+      "category": "apps",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "BeeTV - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "url": "https://netmirror.gg/10/en-in",
+      "category": "apps",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "pikashow",
+      "name": "PikaShow",
+      "url": "https://pikashowtv.in/",
+      "category": "apps",
+      "region": [
+        "FR"
+      ],
+      "paymentModel": "free",
+      "description": "PikaShow - Apps platform.",
+      "enabled": true
+    }
+  ]
+}

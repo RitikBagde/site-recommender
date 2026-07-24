@@ -8,49 +8,14 @@
       "flag": "🇺🇸"
     },
     {
-      "code": "IN",
-      "label": "India",
-      "flag": "🇮🇳"
+      "code": "UK",
+      "label": "United Kingdom",
+      "flag": "🇬🇧"
     },
     {
-      "code": "DE",
-      "label": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "code": "FR",
-      "label": "France",
-      "flag": "🇫🇷"
-    },
-    {
-      "code": "JP",
-      "label": "Japan",
-      "flag": "🇯🇵"
-    },
-    {
-      "code": "KR",
-      "label": "South Korea",
-      "flag": "🇰🇷"
-    },
-    {
-      "code": "ES",
-      "label": "Spain",
-      "flag": "🇪🇸"
-    },
-    {
-      "code": "IT",
-      "label": "Italy",
-      "flag": "🇮🇹"
-    },
-    {
-      "code": "PL",
-      "label": "Poland",
-      "flag": "🇵🇱"
-    },
-    {
-      "code": "EG",
-      "label": "Egypt",
-      "flag": "🇪🇬"
+      "code": "EU",
+      "label": "Europe",
+      "flag": "🇪🇺"
     }
   ],
   "categories": [
@@ -93,8 +58,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "subscription",
@@ -109,8 +72,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "subscription",
@@ -124,8 +85,6 @@
       "region": [
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "subscription",
@@ -164,8 +123,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "subscription",
@@ -174,7 +131,7 @@
     {
       "id": "paramount-plus",
       "name": "Paramount+",
-      "url": "https://www.paramountplus.com",
+      "url": "https://www.paramountplus.com/intl",
       "category": "movies",
       "region": [
         "US",
@@ -187,7 +144,7 @@
     {
       "id": "peacock",
       "name": "Peacock",
-      "url": "https://www.peacocktv.com",
+      "url": "https://www.peacocktv.com/unavailable",
       "category": "tv-shows",
       "region": [
         "US"
@@ -230,8 +187,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "rental",
@@ -246,8 +201,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "subscription",
@@ -288,8 +241,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "free",
@@ -336,14 +287,7 @@
       "url": "https://www.dazn.com",
       "category": "live-sports",
       "region": [
-        "US",
-        "DE",
-        "FR",
-        "ES",
-        "IT",
-        "PL",
-        "EG",
-        "JP"
+        "US"
       ],
       "paymentModel": "subscription",
       "description": "Combat sports, football, and regional live sports packages."
@@ -355,38 +299,10 @@
       "category": "live-sports",
       "region": [
         "GLOBAL",
-        "US",
-        "DE",
-        "FR",
-        "ES",
-        "IT",
-        "PL",
-        "EG"
+        "US"
       ],
       "paymentModel": "subscription",
       "description": "Formula 1 live timing, onboard feeds, and full race replays."
-    },
-    {
-      "id": "jiohotstar",
-      "name": "JioHotstar",
-      "url": "https://www.hotstar.com",
-      "category": "live-sports",
-      "region": [
-        "IN"
-      ],
-      "paymentModel": "subscription",
-      "description": "Cricket, IPL, and regional sports live streams for India."
-    },
-    {
-      "id": "sony-liv-sports",
-      "name": "Sony LIV",
-      "url": "https://www.sonyliv.com",
-      "category": "live-sports",
-      "region": [
-        "IN"
-      ],
-      "paymentModel": "subscription",
-      "description": "Football, tennis, WWE, and cricket coverage for Indian viewers."
     },
     {
       "id": "bbc-iplayer",
@@ -408,8 +324,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "free",
@@ -435,7 +349,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
         "EU"
       ],
       "paymentModel": "free",
@@ -450,8 +363,6 @@
         "GLOBAL",
         "US",
         "UK",
-        "IN",
-        "JP",
         "EU"
       ],
       "paymentModel": "free",
@@ -460,24 +371,13 @@
     {
       "id": "vlc",
       "name": "VLC Media Player",
-      "url": "https://www.videolan.org/vlc",
+      "url": "http://www.videolan.org/vlc",
       "category": "apps",
       "region": [
         "GLOBAL"
       ],
       "paymentModel": "free",
       "description": "Universal open-source media player for local and network streams."
-    },
-    {
-      "id": "u-next",
-      "name": "U-NEXT",
-      "url": "https://video.unext.jp",
-      "category": "movies",
-      "region": [
-        "JP"
-      ],
-      "paymentModel": "subscription",
-      "description": "Japan's largest on-demand film and drama subscription service."
     },
     {
       "id": "itvx",
@@ -535,17 +435,6 @@
       "description": "shuttletv - Movies & Shows platform."
     },
     {
-      "id": "flickystream",
-      "name": "FlickyStream",
-      "url": "https://flickystream.su/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "FlickyStream - Movies & Shows platform."
-    },
-    {
       "id": "meowtv",
       "name": "MeowTV",
       "url": "https://meowtv.ru/",
@@ -577,17 +466,6 @@
       ],
       "paymentModel": "free",
       "description": "CinemaBZ - Movies & Shows platform."
-    },
-    {
-      "id": "spenflix",
-      "name": "Spenflix",
-      "url": "https://watch.spencerdevs.xyz/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Spenflix - Movies & Shows platform."
     },
     {
       "id": "filmcave",
@@ -645,17 +523,6 @@
       "description": "netplayz - Movies & Shows platform."
     },
     {
-      "id": "hollymoviehd",
-      "name": "HollyMovieHD",
-      "url": "https://hollymoviehd.cc/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "HollyMovieHD - Movies & Shows platform."
-    },
-    {
       "id": "cinemacity",
       "name": "CinemaCity",
       "url": "https://cinemacity.cc/",
@@ -665,61 +532,6 @@
       ],
       "paymentModel": "free",
       "description": "CinemaCity - Movies & Shows platform."
-    },
-    {
-      "id": "moviebox",
-      "name": "Moviebox",
-      "url": "https://h5.inmoviebox.com/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Moviebox - Movies & Shows platform."
-    },
-    {
-      "id": "hdtodayz",
-      "name": "HdTodayz",
-      "url": "https://hdtodayz.net/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "HdTodayz - Movies & Shows platform."
-    },
-    {
-      "id": "willow",
-      "name": "Willow",
-      "url": "https://willow.arlen.icu/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Willow - Movies & Shows platform."
-    },
-    {
-      "id": "345movie",
-      "name": "345movie",
-      "url": "https://345movie.nl/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "345movie - Movies & Shows platform."
-    },
-    {
-      "id": "fmovies",
-      "name": "FMovies",
-      "url": "https://fmovies-hd.to/home/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "FMovies - Movies & Shows platform."
     },
     {
       "id": "watchott",
@@ -801,7 +613,7 @@
     {
       "id": "anikage",
       "name": "Anikage",
-      "url": "https://anikage.cc/home",
+      "url": "https://anikage.cc",
       "category": "anime",
       "region": [
         "Global"
@@ -863,28 +675,6 @@
       ],
       "paymentModel": "free",
       "description": "AnimeNexus - Anime platform."
-    },
-    {
-      "id": "1anime",
-      "name": "1Anime",
-      "url": "https://1anime.app/discover",
-      "category": "anime",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "1Anime - Anime platform."
-    },
-    {
-      "id": "anistream",
-      "name": "Anistream",
-      "url": "https://anistream.one",
-      "category": "anime",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Anistream - Anime platform."
     },
     {
       "id": "animetsu",
@@ -962,17 +752,6 @@
       ],
       "paymentModel": "free",
       "description": "AniDB - Anime platform."
-    },
-    {
-      "id": "animeheaven",
-      "name": "Animeheaven",
-      "url": "https://animeheaven.me/",
-      "category": "anime",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Animeheaven - Anime platform."
     },
     {
       "id": "anitaku",
@@ -1120,7 +899,7 @@
     {
       "id": "mangafire",
       "name": "MangaFire",
-      "url": "https://mangafire.to/home",
+      "url": "https://mangafire.to",
       "category": "manga",
       "region": [
         "Global"
@@ -1149,17 +928,6 @@
       ],
       "paymentModel": "free",
       "description": "AsuraComic - Manga platform."
-    },
-    {
-      "id": "readcomiconline",
-      "name": "ReadComicOnline",
-      "url": "https://rcostation.xyz/",
-      "category": "manga",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "ReadComicOnline - Manga platform."
     },
     {
       "id": "mangahub",
@@ -1228,39 +996,6 @@
       "description": "King of Shojo - Manga platform."
     },
     {
-      "id": "daddylive",
-      "name": "DaddyLive",
-      "url": "https://dlhd.st/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "DaddyLive - Live TV & Sports platform."
-    },
-    {
-      "id": "damitv",
-      "name": "DAMITV",
-      "url": "https://dami-tv.pro/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "DAMITV - Live TV & Sports platform."
-    },
-    {
-      "id": "streamed",
-      "name": "Streamed.PK",
-      "url": "https://streamed.pk/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Streamed.PK - Live TV & Sports platform."
-    },
-    {
       "id": "sportplus",
       "name": "Sport+",
       "url": "https://en97.sportplus.watch/",
@@ -1270,39 +1005,6 @@
       ],
       "paymentModel": "free",
       "description": "Sport+ - Live TV & Sports platform."
-    },
-    {
-      "id": "thetvapp",
-      "name": "TheTvApp",
-      "url": "https://thetvapptv.com",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "TheTvApp - Live TV & Sports platform."
-    },
-    {
-      "id": "ntv",
-      "name": "NTVStream",
-      "url": "https://ntv.cx",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "NTVStream - Live TV & Sports platform."
-    },
-    {
-      "id": "publiciptv",
-      "name": "PublicIPTV",
-      "url": "https://publiciptv.com/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "PublicIPTV - Live TV & Sports platform."
     },
     {
       "id": "streameast",
@@ -1316,28 +1018,6 @@
       "description": "StreamEast - Live TV & Sports platform."
     },
     {
-      "id": "istreameast",
-      "name": "iStreamEast",
-      "url": "https://thestreameast.top/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "iStreamEast - Live TV & Sports platform."
-    },
-    {
-      "id": "sportsurge",
-      "name": "SportSurge",
-      "url": "https://v2.sportsurge.net/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "SportSurge - Live TV & Sports platform."
-    },
-    {
       "id": "tvgarden",
       "name": "TV Garden",
       "url": "https://famelack.com/",
@@ -1349,7 +1029,7 @@
       "description": "TV Garden - Live TV & Sports platform."
     },
     {
-      "id": "rivestream",
+      "id": "rivestream-sports",
       "name": "RiveStream Sports",
       "url": "https://rivestream.ru/livesports/",
       "category": "tv-shows",
@@ -1358,17 +1038,6 @@
       ],
       "paymentModel": "free",
       "description": "RiveStream Sports - Live TV & Sports platform."
-    },
-    {
-      "id": "sportsbite",
-      "name": "Sportsbite",
-      "url": "https://sportsbite.org/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Sportsbite - Live TV & Sports platform."
     },
     {
       "id": "stmify",
@@ -1380,17 +1049,6 @@
       ],
       "paymentModel": "free",
       "description": "Stmify - Live TV & Sports platform."
-    },
-    {
-      "id": "ppv",
-      "name": "ppv.to",
-      "url": "https://ppv.st/",
-      "category": "tv-shows",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "ppv.to - Live TV & Sports platform."
     },
     {
       "id": "fifstream1",
@@ -1472,7 +1130,7 @@
     {
       "id": "onstream",
       "name": "OnStream APKs",
-      "url": "https://onstreamapks.app/",
+      "url": "https://onstreamapks.app/home",
       "category": "apps",
       "region": [
         "Global"
@@ -1503,9 +1161,9 @@
       "description": "HDO Box - Apps platform."
     },
     {
-      "id": "netmirror",
+      "id": "netmirror-apps",
       "name": "NetMirror",
-      "url": "https://netmirror.gg/2/en",
+      "url": "https://netmirror.gg/10/en-in",
       "category": "apps",
       "region": [
         "Global"
@@ -1545,17 +1203,6 @@
       ],
       "paymentModel": "free",
       "description": "YouCine - Live TV platform."
-    },
-    {
-      "id": "playfy",
-      "name": "PlayFy",
-      "url": "https://playfy.live/",
-      "category": "apps",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "PlayFy - Apps platform."
     }
   ]
 }

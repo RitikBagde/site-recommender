@@ -31,20 +31,6 @@ export function countByCategory(listings: PlatformListing[]) {
   );
 }
 
-const regionAliases: Record<string, string[]> = {
-  ALL: ["ALL", "GLOBAL"],
-  US: ["US", "UK", "GB"],
-  IN: ["IN"],
-  DE: ["DE", "EU"],
-  FR: ["FR", "EU"],
-  JP: ["JP"],
-  KR: ["KR"],
-  ES: ["ES", "EU"],
-  IT: ["IT", "EU"],
-  PL: ["PL", "EU"],
-  EG: ["EG"],
-};
-
 export function filterListings(
   listings: PlatformListing[],
   {
@@ -57,8 +43,9 @@ export function filterListings(
 ): PlatformListing[] {
   return listings.filter((listing) => {
     const matchesRegion =
-      region === "ALL" ||
-      listing.region.some((code) => regionAliases[region]?.includes(code));
+      region === "ALL"
+        ? listing._source === "GLOBAL"
+        : listing._source === region;
 
     if (!matchesRegion) {
       return false;

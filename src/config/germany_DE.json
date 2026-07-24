@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-19",
+  "listings": [
+    {
+      "id": "sto",
+      "name": "S.to",
+      "url": "https://SerienStream.to",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "S.to - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "netzkino",
+      "name": "Netzkino",
+      "url": "https://www.netzkino.de/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "Netzkino - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "streamkiste",
+      "name": "StreamKiste",
+      "url": "https://streamkiste.life/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "StreamKiste - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "zdf",
+      "name": "ZDF",
+      "url": "https://www.zdf.de/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "ZDF - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "ard-media",
+      "name": "ARD Media",
+      "url": "https://www.ardmediathek.de/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "ARD Media - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "filmpalast",
+      "name": "FilmPalast",
+      "url": "https://filmpalast.to/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "FilmPalast - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "kinox",
+      "name": "Kinox/Kinoz",
+      "url": "https://kinoz.to",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "Kinox/Kinoz - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "burningseries",
+      "name": "BurningSeries",
+      "url": "https://burning-series.io/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "BurningSeries - Movies & Shows platform.",
+      "enabled": true
+    },
+    {
+      "id": "aniworld",
+      "name": "Aniworld",
+      "url": "https://aniworld.to/",
+      "category": "anime",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "Aniworld - Anime platform.",
+      "enabled": true
+    },
+    {
+      "id": "sportschau",
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/",
+      "category": "live-sports",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "Sportschau - Live TV & Sports platform.",
+      "enabled": true
+    },
+    {
+      "id": "3sat",
+      "name": "3Sat",
+      "url": "https://www.3sat.de/programm",
+      "category": "live-sports",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "3Sat - Live TV & Sports platform.",
+      "enabled": true
+    },
+    {
+      "id": "disneyhotstar",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/identity/login/",
+      "category": "paid",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Disney+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "url": "https://www.shudder.com/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Shudder - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "url": "https://auth.hulu.com/web/login/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Next-day broadcast TV, Hulu Originals, and live TV add-ons.",
+      "enabled": true
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Netflix - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "viki",
+      "name": "Viki",
+      "url": "https://www.viki.com/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Viki - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "max",
+      "name": "MAX",
+      "url": "https://www.hbomax.com/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "MAX - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Apple TV+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Amazon Prime - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/intl",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Paramount+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "url": "https://crunchyroll.com/login",
+      "category": "paid",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Crunchyroll - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "mgm+",
+      "name": "MGM+",
+      "url": "https://www.mgmplus.com/",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "MGM+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com/unavailable",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Peacock - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "amc+",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/login",
+      "category": "movies",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "AMC+ - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "sky",
+      "name": "Sky",
+      "url": "https://www.sky.de/",
+      "category": "paid",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "subscription",
+      "description": "Sky - Paid Services platform.",
+      "enabled": true
+    },
+    {
+      "id": "playtorrio",
+      "name": "Playtorrio",
+      "url": "https://playtorrio.pages.dev/",
+      "category": "apps",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "Playtorrio - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "onstream",
+      "name": "OnStream APKs",
+      "url": "https://onstreamapks.app/home",
+      "category": "apps",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "OnStream APKs - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "hdobox",
+      "name": "HDO Box",
+      "url": "https://hdobox.net/",
+      "category": "apps",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "HDO Box - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "url": "https://beetvs.com.co/",
+      "category": "apps",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "BeeTV - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "url": "https://netmirror.gg/10/en-in",
+      "category": "apps",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "NetMirror - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "pikashow",
+      "name": "PikaShow",
+      "url": "https://pikashowtv.in/",
+      "category": "apps",
+      "region": [
+        "DE"
+      ],
+      "paymentModel": "free",
+      "description": "PikaShow - Apps platform.",
+      "enabled": true
+    },
+      {
+      "id": "vipbox",
+      "name": "VIPBox",
+      "url": "https://vipbox1.com/",
+      "category": "live-sports",
+      "region": ["DE"],
+      "paymentModel": "free",
+      "description": "VIPBox - Live TV & Sports platform.",
+      "enabled": true
+    },
+    {
+      "id": "moviebox",
+      "name": "MovieBox",
+      "url": "https://www.moviesbox.com.co/home/",
+      "category": "apps",
+      "region": ["DE"],
+      "paymentModel": "free",
+      "description": "MovieBox - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "playfy",
+      "name": "PlayFy",
+      "url": "https://playfy.live/",
+      "category": "apps",
+      "region": ["DE"],
+      "paymentModel": "free",
+      "description": "PlayFy - Apps platform.",
+      "enabled": true
+    },
+    {
+      "id": "moflix",
+      "name": "Moflix",
+      "url": "https://moflix-stream.xyz/",
+      "category": "movies",
+      "region": ["DE"],
+      "paymentModel": "free",
+      "description": "Moflix - Movies & Shows platform.",
+      "enabled": true
+    }
+  ]
+}
