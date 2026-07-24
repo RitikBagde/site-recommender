@@ -10,6 +10,20 @@ export const metadata: Metadata = {
     title: "About — WhereWatch",
     description:
       "Discover streaming, reading, and media platforms across regions with WhereWatch.",
+    url: "/about",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "About WhereWatch",
+      },
+    ],
+  },
+  twitter: {
+    title: "About — WhereWatch",
+    description:
+      "Discover streaming, reading, and media platforms across regions with WhereWatch.",
   },
 };
 

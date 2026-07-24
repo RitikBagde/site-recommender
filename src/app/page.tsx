@@ -1,6 +1,19 @@
 import { DiscoveryWorkspace } from "@/components/shared/DiscoveryWorkspace";
 import { getListingDatasource } from "@/lib/datasource";
+import type { Metadata } from "next";
 import { Suspense } from "react";
+
+export const metadata: Metadata = {
+  title: "WhereWatch — Discover Streaming Platforms by Region",
+  description:
+    "Explore 120+ streaming, reading, and media platforms across 10 regions. Filter by category, search by name, bookmark favorites, and discover where to watch.",
+  openGraph: {
+    title: "WhereWatch — Discover Streaming Platforms by Region",
+    description:
+      "Explore 120+ streaming, reading, and media platforms across 10 regions.",
+    url: "/",
+  },
+};
 
 export default async function Home() {
   const { data, meta } = await getListingDatasource();

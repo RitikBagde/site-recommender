@@ -4,6 +4,7 @@ import { Dropdown } from "@/components/ui/dropdown";
 import { Input } from "@/components/ui/input";
 import { useCategoryTracker } from "@/hooks/useCategoryTracker";
 import { cn } from "@/lib/utils";
+import { useTheme, type Theme } from "@/components/shared/ThemeProvider";
 import type { CategoryFilter, CategoryOption, MediaCategory, RegionOption } from "@/types";
 import {
   BadgeDollarSign,
@@ -14,6 +15,9 @@ import {
   LayoutGrid,
   Smartphone,
   Sparkles,
+  Sun,
+  Moon,
+  Monitor,
   Trophy,
   Tv,
   Info,
@@ -61,9 +65,16 @@ export function ControlConsole({
   onHomeClick,
   className,
 }: ControlConsoleProps) {
+  const { theme, setTheme } = useTheme();
   const { navRef, pillRef, registerItem } = useCategoryTracker<HTMLButtonElement>(
     activeCategory,
   );
+
+  const themeOptions: { value: Theme; label: string; icon: ElementType }[] = [
+    { value: "light", label: "Light", icon: Sun },
+    { value: "dark", label: "Dark", icon: Moon },
+    { value: "system", label: "System", icon: Monitor },
+  ];
 
   return (
     <aside
@@ -147,6 +158,30 @@ export function ControlConsole({
             value={activeRegion}
             onChange={onRegionChange}
           />
+        </div>
+
+        <div>
+          <span className="mb-2 block text-xs font-medium uppercase tracking-wide text-muted">
+            Theme
+          </span>
+          <div className="flex gap-1 rounded-lg border border-brand-border bg-brand-bg p-1">
+            {themeOptions.map(({ value, label, icon: Icon }) => (
+              <button
+                key={value}
+                type="button"
+                onClick={() => setTheme(value)}
+                className={cn(
+                  "flex flex-1 items-center justify-center gap-1.5 rounded-md px-2 py-1.5 text-xs transition-colors",
+                  theme === value
+                    ? "bg-brand-surface text-primary shadow-sm"
+                    : "text-muted hover:text-primary",
+                )}
+              >
+                <Icon className="h-3.5 w-3.5" strokeWidth={1.5} />
+                {label}
+              </button>
+            ))}
+          </div>
         </div>
 
         <nav aria-label="Categories">

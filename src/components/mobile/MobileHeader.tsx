@@ -2,10 +2,20 @@
 
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+import { useTheme } from "@/components/shared/ThemeProvider";
 import type { CategoryFilter, CategoryOption, RegionOption } from "@/types";
-import { Home, Info, Search, ChevronDown, Globe2, Shield } from "lucide-react";
+import {
+  Home,
+  Info,
+  Search,
+  ChevronDown,
+  Globe2,
+  Shield,
+  Sun,
+  Moon,
+} from "lucide-react";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 interface MobileHeaderProps {
   categories: CategoryOption[];
@@ -32,8 +42,16 @@ export function MobileHeader({
   onHomeClick,
   className,
 }: MobileHeaderProps) {
+  const { theme, setTheme } = useTheme();
   const [regionOpen, setRegionOpen] = useState(false);
   const regionRef = useRef<HTMLDivElement>(null);
+
+  const cycleTheme = useCallback(() => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  }, [theme, setTheme]);
+
+  const ThemeIcon = theme === "dark" ? Moon : Sun;
+  const themeLabel = theme === "dark" ? "Dark theme" : "Light theme";
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -67,6 +85,9 @@ export function MobileHeader({
             </h2>
           </div>
           <div className="flex items-center gap-2">
+            <button type="button" onClick={cycleTheme} className="rounded-lg border border-brand-border bg-brand-surface p-2 text-muted transition-colors hover:text-brand-glow" aria-label={themeLabel} title={themeLabel}>
+              <ThemeIcon className="h-4 w-4" strokeWidth={1.5} />
+            </button>
             <button type="button" onClick={onHomeClick} className="rounded-lg border border-brand-border bg-brand-surface p-2 text-muted transition-colors hover:text-brand-glow" aria-label="Go home">
               <Home className="h-4 w-4" strokeWidth={1.5} />
             </button>

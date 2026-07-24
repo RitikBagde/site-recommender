@@ -3,15 +3,6 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   theme: {
     extend: {
-      colors: {
-        "brand-bg": "#09090b",
-        "brand-surface": "#18181b",
-        "brand-border": "#27272a",
-        "brand-glow": "#4f46e5",
-        "brand-purple": "#7c3aed",
-        primary: "#fafafa",
-        muted: "#a1a1aa",
-      },
       fontFamily: {
         sans: [
           "var(--font-geist-sans)",
