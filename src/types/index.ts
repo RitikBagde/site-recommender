@@ -83,7 +83,7 @@ export interface ListingDatasource {
 
 
 
-export type FeedbackType = "suggestion" | "report";
+export type FeedbackType = "suggestion" | "report" | "complaint";
 
 
 
@@ -115,11 +115,20 @@ export interface ReportLinkPayload {
 
 
 
+export interface DmcaPayload {
+  fullName: string;
+  email: string;
+  description: string;
+  infringingUrls: string;
+  copyrightedWork: string;
+  signature: string;
+}
+
 export interface FeedbackSubmission {
 
   type: FeedbackType;
 
-  payload: SuggestionPayload | ReportLinkPayload;
+  payload: SuggestionPayload | ReportLinkPayload | DmcaPayload;
 
   submittedAt: string;
 

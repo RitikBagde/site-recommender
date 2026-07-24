@@ -12,13 +12,14 @@ import {
   Globe2,
   Home,
   LayoutGrid,
-  LifeBuoy,
   Smartphone,
   Sparkles,
   Trophy,
   Tv,
   Info,
+  Shield,
 } from "lucide-react";
+import Link from "next/link";
 import type { ElementType } from "react";
 
 const categoryIcons: Record<MediaCategory, ElementType> = {
@@ -43,7 +44,6 @@ interface ControlConsoleProps {
   onRegionChange: (region: string) => void;
   onSearchChange: (query: string) => void;
   onHomeClick: () => void;
-  onAboutClick: () => void;
   className?: string;
 }
 
@@ -59,7 +59,6 @@ export function ControlConsole({
   onRegionChange,
   onSearchChange,
   onHomeClick,
-  onAboutClick,
   className,
 }: ControlConsoleProps) {
   const { navRef, pillRef, registerItem } = useCategoryTracker<HTMLButtonElement>(
@@ -91,23 +90,21 @@ export function ControlConsole({
           >
             <Home className="h-4 w-4" strokeWidth={1.5} />
           </button>
-          <button
-            type="button"
-            onClick={onAboutClick}
+          <Link
+            href="/about"
             className="flex h-10 items-center justify-center rounded-lg border border-brand-border bg-brand-bg px-3 text-muted transition-colors hover:text-brand-glow"
             aria-label="About this directory"
           >
             <Info className="h-4 w-4" strokeWidth={1.5} />
-          </button>
-          <button
-            type="button"
+          </Link>
+          <Link
+            href="/dmca"
             className="flex h-10 items-center justify-center rounded-lg border border-brand-border bg-brand-bg px-3 text-muted transition-colors hover:text-brand-glow"
-            aria-label="Support the project"
-            title="Anonymous, privacy-first support via Monero"
-            onClick={() => window.open("https://www.getmonero.org/get-started/accepting", "_blank", "noopener,noreferrer")}
+            aria-label="DMCA Policy"
+            title="DMCA Policy — Copyright Takedown Requests"
           >
-            <LifeBuoy className="h-4 w-4" strokeWidth={1.5} />
-          </button>
+            <Shield className="h-4 w-4" strokeWidth={1.5} />
+          </Link>
         </div>
 
         <div>

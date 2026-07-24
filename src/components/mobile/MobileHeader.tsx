@@ -3,7 +3,8 @@
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import type { CategoryFilter, CategoryOption, RegionOption } from "@/types";
-import { Home, Info, LifeBuoy, Search, ChevronDown, Globe2 } from "lucide-react";
+import { Home, Info, Search, ChevronDown, Globe2, Shield } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 interface MobileHeaderProps {
@@ -16,7 +17,6 @@ interface MobileHeaderProps {
   onRegionChange: (region: string) => void;
   onSearchChange: (query: string) => void;
   onHomeClick: () => void;
-  onAboutClick: () => void;
   className?: string;
 }
 
@@ -30,7 +30,6 @@ export function MobileHeader({
   onRegionChange,
   onSearchChange,
   onHomeClick,
-  onAboutClick,
   className,
 }: MobileHeaderProps) {
   const [regionOpen, setRegionOpen] = useState(false);
@@ -71,12 +70,12 @@ export function MobileHeader({
             <button type="button" onClick={onHomeClick} className="rounded-lg border border-brand-border bg-brand-surface p-2 text-muted transition-colors hover:text-brand-glow" aria-label="Go home">
               <Home className="h-4 w-4" strokeWidth={1.5} />
             </button>
-            <button type="button" onClick={onAboutClick} className="rounded-lg border border-brand-border bg-brand-surface p-2 text-muted transition-colors hover:text-brand-glow" aria-label="About this directory">
+            <Link href="/about" className="rounded-lg border border-brand-border bg-brand-surface p-2 text-muted transition-colors hover:text-brand-glow" aria-label="About this directory">
               <Info className="h-4 w-4" strokeWidth={1.5} />
-            </button>
-            <button type="button" className="rounded-lg border border-brand-border bg-brand-surface p-2 text-muted transition-colors hover:text-brand-glow" aria-label="Support the project" title="Anonymous, privacy-first support via Monero" onClick={() => window.open("https://www.getmonero.org/get-started/accepting", "_blank", "noopener,noreferrer")}>
-              <LifeBuoy className="h-4 w-4" strokeWidth={1.5} />
-            </button>
+            </Link>
+            <Link href="/dmca" className="rounded-lg border border-brand-border bg-brand-surface p-2 text-muted transition-colors hover:text-brand-glow" aria-label="DMCA Policy" title="DMCA Policy — Copyright Takedown Requests">
+              <Shield className="h-4 w-4" strokeWidth={1.5} />
+            </Link>
           </div>
         </div>
 

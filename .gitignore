@@ -30,7 +30,11 @@ yarn-error.log*
 
 # env files
 .env*.local
-
+.env
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#cursor
+.cursor
+.agents

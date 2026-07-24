@@ -18,7 +18,6 @@ import {
 } from "@/lib/listings";
 import { cn } from "@/lib/utils";
 import type { CategoryFilter, DataSourceMeta, ListingDatasource, PlatformListing } from "@/types";
-import { AnimatePresence, motion } from "framer-motion";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
@@ -81,11 +80,19 @@ export function DiscoveryWorkspace({ data, dataMeta }: DiscoveryWorkspaceProps) 
   );
   const [activeRegion, setActiveRegion] = useState(() => parseRegion(searchParams.get("region"), regionOptions));
   const [searchQuery, setSearchQuery] = useState(() => searchParams.get("q") ?? "");
-  const [aboutOpen, setAboutOpen] = useState(false);
   const [bookmarks, setBookmarks, bookmarksHydrated] = useLocalStorage<string[]>(BOOKMARKS_KEY, []);
 
-  const categoryCounts = useMemo(() => countByCategory(data.listings), [data.listings]);
-  const uniquePlatformCount = useMemo(() => countUniquePlatforms(data.listings), [data.listings]);
+  const regionOnlyListings = useMemo(
+    () =>
+      filterListings(data.listings, {
+        category: "all",
+        region: activeRegion,
+      }),
+    [activeRegion, data.listings],
+  );
+
+  const categoryCounts = useMemo(() => countByCategory(regionOnlyListings), [regionOnlyListings]);
+  const uniquePlatformCount = useMemo(() => countUniquePlatforms(regionOnlyListings), [regionOnlyListings]);
 
   const regionFilteredListings = useMemo(
     () =>
@@ -169,11 +176,6 @@ export function DiscoveryWorkspace({ data, dataMeta }: DiscoveryWorkspaceProps) 
     setActiveCategory("all");
     setActiveRegion("ALL");
     setSearchQuery("");
-    setAboutOpen(false);
-  }, []);
-
-  const handleAboutClick = useCallback(() => {
-    setAboutOpen((current) => !current);
   }, []);
 
   const handleTogglePin = useCallback(
@@ -217,7 +219,6 @@ export function DiscoveryWorkspace({ data, dataMeta }: DiscoveryWorkspaceProps) 
           onRegionChange={handleRegionChange}
           onSearchChange={handleSearchChange}
           onHomeClick={handleHomeClick}
-          onAboutClick={handleAboutClick}
         />
 
         <div className="min-w-0 flex-1">
@@ -231,7 +232,6 @@ export function DiscoveryWorkspace({ data, dataMeta }: DiscoveryWorkspaceProps) 
             onRegionChange={handleRegionChange}
             onSearchChange={handleSearchChange}
             onHomeClick={handleHomeClick}
-            onAboutClick={handleAboutClick}
           />
 
           <main id="streaming-directory" className="space-y-6 px-4 py-4 pb-24 lg:px-6 lg:py-6 lg:pb-6">
@@ -248,49 +248,6 @@ export function DiscoveryWorkspace({ data, dataMeta }: DiscoveryWorkspaceProps) 
                 )}
               </p>
             </div>
-
-            <AnimatePresence>
-              {aboutOpen && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  className="fixed inset-0 z-60 flex items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm"
-                  onClick={() => setAboutOpen(false)}
-                >
-                  <motion.div
-                    initial={{ opacity: 0, y: 12, scale: 0.98 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: 12, scale: 0.98 }}
-                    className="w-full max-w-xl rounded-card border border-brand-border bg-brand-surface p-5 shadow-card-glow"
-                    onClick={(event) => event.stopPropagation()}
-                  >
-                    <div className="flex items-start justify-between gap-3">
-                      <div>
-                        <p className="text-sm font-semibold uppercase tracking-wide text-muted">About this directory</p>
-                        <h3 className="mt-1 text-xl font-semibold text-primary">Discover streaming and reading services</h3>
-                      </div>
-                      <button
-                        type="button"
-                        onClick={() => setAboutOpen(false)}
-                        className="rounded-full border border-brand-border bg-brand-bg px-2.5 py-1 text-sm text-muted"
-                      >
-                        Close
-                      </button>
-                    </div>
-                    <p className="mt-4 leading-7 text-muted">
-                      WhereWatch helps you explore streaming, reading, and media platforms across regions. The workspace keeps search, filtering, and bookmarks in sync so you can jump straight to the most relevant options without friction.
-                    </p>
-                    <div className="mt-5 rounded-lg border border-brand-border/70 bg-brand-bg/70 p-3 text-sm text-muted">
-                      <p className="font-medium text-primary">Privacy-first support</p>
-                      <p className="mt-1 leading-6">
-                        Support is routed through an anonymous Monero-facing endpoint so no personal banking information or trackable payment handles are exposed.
-                      </p>
-                    </div>
-                  </motion.div>
-                </motion.div>
-              )}
-            </AnimatePresence>
 
             <div className={cn("t-skel", revealed && "is-revealed")}>
               <div className="t-skel-skeleton is-pulsing">

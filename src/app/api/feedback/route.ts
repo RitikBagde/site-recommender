@@ -5,6 +5,7 @@ import {
   validateSuggestion,
 } from "@/lib/validation";
 import type {
+  DmcaPayload,
   FeedbackSubmission,
   FeedbackType,
   ReportLinkPayload,
@@ -26,7 +27,9 @@ export async function POST(request: Request) {
     const errors =
       body.type === "suggestion"
         ? validateSuggestion(body.payload as SuggestionPayload)
-        : validateReportLink(body.payload as ReportLinkPayload);
+        : body.type === "report"
+          ? validateReportLink(body.payload as ReportLinkPayload)
+          : {};
 
     if (hasErrors(errors)) {
       return NextResponse.json(
