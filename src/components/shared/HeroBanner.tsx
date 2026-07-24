@@ -2,8 +2,12 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpRight, Crown } from "lucide-react";
+import { useState } from "react";
 
 const ease = [0.22, 1, 0.36, 1] as const;
+
+const CLOUDFRONT_URL =
+  "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260606_154941_df1a96e1-a06f-450c-bd02-d863414cc1a0.mp4";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 20 },
@@ -11,6 +15,8 @@ const fadeUp = (delay: number) => ({
 });
 
 export function HeroBanner() {
+  const [videoSrc, setVideoSrc] = useState(CLOUDFRONT_URL);
+
   return (
     <section className="relative min-h-[260px] overflow-hidden md:min-h-[320px] lg:min-h-[35vh]">
       <video
@@ -18,9 +24,9 @@ export function HeroBanner() {
         muted
         loop
         playsInline
-        className="absolute inset-0 size-full object-cover"
-        src="/assets/turtleninja1.mp4"
-        // src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260606_154941_df1a96e1-a06f-450c-bd02-d863414cc1a0.mp4"
+        className="absolute inset-0 size-full object-cover object-[50%_35%]"
+        src={videoSrc}
+        onError={() => setVideoSrc("/assets/turtleninja1.mp4")}
       />
 
       <div className="absolute inset-0 z-10 bg-gradient-to-r from-black/90 via-black/75 to-transparent" />
