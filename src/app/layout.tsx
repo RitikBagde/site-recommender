@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   authors: [{ name: "WhereWatch" }],
   creator: "WhereWatch",
   publisher: "WhereWatch",
-  metadataBase: new URL("https://wherewatch.vercel.app"),
+  metadataBase: new URL("https://wherewatch.in"),
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -85,7 +85,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "WhereWatch",
-  url: "https://wherewatch.vercel.app",
+  url: "https://wherewatch.in",
   description:
     "Explore 120+ streaming, reading, and media platforms across 10 regions.",
   inLanguage: "en-US",

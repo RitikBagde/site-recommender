@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://wherewatch.vercel.app/sitemap.xml",
+    sitemap: "https://wherewatch.in/sitemap.xml",
   };
 }
