@@ -179,20 +179,6 @@
       "description": "Free linear channels and on-demand TV without a login."
     },
     {
-      "id": "youtube-movies",
-      "name": "YouTube Movies",
-      "url": "https://www.youtube.com/movies",
-      "category": "movies",
-      "region": [
-        "GLOBAL",
-        "US",
-        "UK",
-        "EU"
-      ],
-      "paymentModel": "rental",
-      "description": "Rent or buy new releases and catalog titles à la carte."
-    },
-    {
       "id": "crunchyroll",
       "name": "Crunchyroll",
       "url": "https://www.crunchyroll.com",
