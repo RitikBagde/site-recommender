@@ -338,6 +338,66 @@
       "paymentModel": "free",
       "description": "DramaCool - Asian dramas, movies & shows platform.",
       "enabled": true
+    },
+    {
+      "id": "webtoons",
+      "name": "WEBTOON",
+      "url": "https://www.webtoons.com/en/",
+      "category": "manga",
+      "region": [
+        "KR", "JP", "IN", "Global"
+      ],
+      "paymentModel": "free",
+      "description": "WEBTOON - Digital comics, webtoons & manhwa platform.",
+      "enabled": true
+    },
+    {
+      "id": "qimanga",
+      "name": "QiManga",
+      "url": "https://qimanga.com/",
+      "category": "manga",
+      "region": [
+        "KR"
+      ],
+      "paymentModel": "free",
+      "description": "QiManga - Manga & manhwa platform.",
+      "enabled": true
+    },
+    {
+      "id": "team-shadow",
+      "name": "Team Shadowi",
+      "url": "https://www.team-shadowi.com/",
+      "category": "manga",
+      "region": [
+        "KR", "JP", "IN", "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Team Shadow - Manga & manhwa scanlation platform.",
+      "enabled": true
+    },
+    {
+      "id": "flame-comics",
+      "name": "Flame Comics",
+      "url": "https://flamecomics.xyz/browse",
+      "category": "manga",
+      "region": [
+        "KR", "JP", "IN", "Global"
+      ],
+      "paymentModel": "free",
+      "description": "Flame Comics - Manhwa & webtoon platform.",
+      "enabled": true
+    },
+    {
+      "id": "elftoon",
+      "name": "ElfToon",
+      "url": "https://elftoon.com/manga/",
+      "category": "manga",
+      "region": [
+        "KR", "JP", "IN", "Global"
+      ],
+      "paymentModel": "free",
+      "description": "ElfToon - Manga & manhwa platform.",
+      "enabled": true
     }
   ]
 }
