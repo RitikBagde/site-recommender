@@ -106,6 +106,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script src="https://pl30713150.effectivecpmnetwork.com/28/6f/1f/286f1fde249c99fe52110acb99777aac.js" async />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-brand-bg font-sans text-primary antialiased`}
