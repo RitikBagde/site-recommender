@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { AdGateBanner } from "@/components/shared/AdGateBanner";
 import { PromoBanner } from "@/components/shared/PromoBanner";
 import { ThemeProvider } from "@/components/shared/ThemeProvider";
 import "./globals.css";
@@ -113,6 +114,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <PromoBanner />
+          <AdGateBanner />
           {children}
         </ThemeProvider>
       </body>
