@@ -398,6 +398,18 @@
       "paymentModel": "free",
       "description": "ElfToon - Manga & manhwa platform.",
       "enabled": true
-    }
+    },
+    {
+      "id": "streamex",
+      "name": "StreameX",
+      "url": "https://www.streamex.sh/",
+      "category": "movies",
+      "region": [
+        "Global","IN","IT","FR","UK","JP","KR"
+      ],
+      "paymentModel": "free",
+      "description": "StreameX - Movies, TV shows, anime, manga & live sports platform.",
+      "enabled": true
+    }        
   ]
 }
