@@ -66,7 +66,7 @@ export function HeroBanner() {
             <span className="hidden text-[10px] font-semibold uppercase tracking-wider text-white/60 sm:inline">
               Join the community
             </span>
-            <a
+            {/* <a
               href="https://www.reddit.com/r/WhereWatch/s/3lWfRIpUCW"
               target="_blank"
               rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export function HeroBanner() {
               className="flex size-9 items-center justify-center rounded-full border border-white/25 bg-black/40 text-white transition-colors hover:border-white/70 hover:bg-white hover:text-black"
             >
               <RedditIcon className="size-4" />
-            </a>
+            </a> */}
             <a
               href="https://discord.gg/tH7DsujP84"
               target="_blank"
