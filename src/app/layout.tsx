@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { AdGateBanner } from "@/components/shared/AdGateBanner";
+import { GAPageView } from "@/components/shared/GAPageView";
 import { PromoBanner } from "@/components/shared/PromoBanner";
 import { ThemeProvider } from "@/components/shared/ThemeProvider";
 import "./globals.css";
@@ -108,6 +109,16 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <script src="https://pl30713150.effectivecpmnetwork.com/28/6f/1f/286f1fde249c99fe52110acb99777aac.js" async />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRV4Q0N68H"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BRV4Q0N68H');`,
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-brand-bg font-sans text-primary antialiased`}
@@ -115,6 +126,7 @@ export default function RootLayout({
         <ThemeProvider>
           <PromoBanner />
           <AdGateBanner />
+          <GAPageView />
           {children}
         </ThemeProvider>
       </body>
