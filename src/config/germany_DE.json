@@ -29,7 +29,7 @@
     {
       "id": "streamkiste",
       "name": "StreamKiste",
-      "url": "https://streamkiste.life/",
+      "url": "https://streamkiste.al/",
       "category": "movies",
       "region": [
         "DE"
@@ -397,7 +397,7 @@
     {
       "id": "playfy",
       "name": "PlayFy",
-      "url": "https://playfy.live/",
+      "url": "https://playfy.net/",
       "category": "apps",
       "region": ["DE"],
       "paymentModel": "free",
@@ -407,7 +407,7 @@
     {
       "id": "moflix",
       "name": "Moflix",
-      "url": "https://moflix-stream.xyz/",
+      "url": "https://moflix-board.link/",
       "category": "movies",
       "region": ["DE"],
       "paymentModel": "free",

@@ -17,7 +17,7 @@
     {
       "id": "movierulz",
       "name": "MovieRulz",
-      "url": "https://www.5movierulz.vote/",
+      "url": "https://www.5movierulz.watch/",
       "category": "movies",
       "region": [
         "IN"
@@ -41,7 +41,7 @@
     {
       "id": "hindilinks4u",
       "name": "HINDILINKS4U",
-      "url": "https://hindilinks4u.ventures/",
+      "url": "https://hindilinks4u.estate/",
       "category": "movies",
       "region": [
         "IN"
@@ -65,7 +65,7 @@
     {
       "id": "movies4u",
       "name": "movies4u",
-      "url": "https://new1.movies4u.clinic/",
+      "url": "https://movies4u.ax/",
       "category": "movies",
       "region": [
         "IN"
@@ -87,18 +87,6 @@
       "enabled": true
     },
     {
-      "id": "world4u",
-      "name": "world4u",
-      "url": "https://world4ufree.im/",
-      "category": "movies",
-      "region": [
-        "IN"
-      ],
-      "paymentModel": "free",
-      "description": "world4u - Movies & Shows platform.",
-      "enabled": true
-    },
-    {
       "id": "netmirror",
       "name": "netmirror",
       "url": "https://net77.cc/home",
@@ -108,18 +96,6 @@
       ],
       "paymentModel": "free",
       "description": "netmirror - Movies & Shows platform.",
-      "enabled": true
-    },
-    {
-      "id": "hindinks4u",
-      "name": "Hindinks4U",
-      "url": "https://hindilinks4u.ventures/",
-      "category": "movies",
-      "region": [
-        "IN"
-      ],
-      "paymentModel": "free",
-      "description": "Hindinks4U - Movies & Shows platform.",
       "enabled": true
     },
     {
@@ -144,18 +120,6 @@
       ],
       "paymentModel": "free",
       "description": "yupflix - Movies & Shows platform.",
-      "enabled": true
-    },
-    {
-      "id": "1tamilblasters",
-      "name": "1tamilblasters",
-      "url": "https://www.1tamilblasters.pro/",
-      "category": "movies",
-      "region": [
-        "IN"
-      ],
-      "paymentModel": "free",
-      "description": "1tamilblasters - Movies & Shows platform.",
       "enabled": true
     },
     {
@@ -581,7 +545,7 @@
     {
       "id": "pr-movies",
       "name": "PRMOVIES",
-      "url": "https://prmovies.farm/",
+      "url": "https://prmovies.directory/",
       "category": "movies",
       "region": ["IN"],
       "paymentModel": "free",
@@ -589,19 +553,9 @@
       "enabled": true
     },
     {
-      "id": "desicinemas",
-      "name": "Desicinemas",
-      "url": "https://desicinemas.pk/",
-      "category": "movies",
-      "region": ["IN"],
-      "paymentModel": "free",
-      "description": "Desicinemas - Movies & Shows platform.",
-      "enabled": true
-    },
-    {
       "id": "moviesbazar",
       "name": "Movies Bazar",
-      "url": "https://www.moviesbazar.su/",
+      "url": "https://www.moviesbazar.tv/",
       "category": "movies",
       "region": ["IN"],
       "paymentModel": "free",
@@ -611,7 +565,7 @@
     {
       "id": "netnaija",
       "name": "NETNINJA",
-      "url": "https://netnaija.film",
+      "url": "https://www.net9ja.tv/",
       "category": "movies",
       "region": ["IN"],
       "paymentModel": "free",
@@ -621,7 +575,7 @@
     {
       "id": "kmmovies",
       "name": "KMMovies",
-      "url": "https://kmmovies.life/",
+      "url": "https://kmmovies.online/",
       "category": "movies",
       "region": ["IN"],
       "paymentModel": "free",
@@ -631,7 +585,7 @@
     {
       "id": "hdhub4u",
       "name": "hdhub4u",
-      "url": "https://new1.hdhub4u.limo/?utm=mn1",
+      "url": "https://hdhub4u.bi/",
       "category": "movies",
       "region": ["IN"],
       "paymentModel": "free",
@@ -641,7 +595,7 @@
     {
       "id": "thenextplanet",
       "name": "TheNextplanet",
-      "url": "https://www.thenextplanet.surf/",
+      "url": "https://www.thenextplanet-official.site/",
       "category": "movies",
       "region": ["IN"],
       "paymentModel": "free",
@@ -651,7 +605,7 @@
     {
       "id": "watchanimeworld",
       "name": "WatchAnimeWorld",
-      "url": "https://watchanimeworld.net/",
+      "url": "https://watchanimeworld.top/",
       "category": "anime",
       "region": ["IN"],
       "paymentModel": "free",
@@ -661,11 +615,11 @@
     {
       "id": "animesalt",
       "name": "Anime Salt",
-      "url": "https://animesalt.ac/",
+      "url": "https://animesalt.link/",
       "category": "anime",
       "region": ["IN"],
       "paymentModel": "free",
-      "description": "Anime Salt - Anime platform.",
+      "description": "Anime Salt - Anime/Cartoon platform.",
       "enabled": true
     },
     {

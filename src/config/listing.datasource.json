@@ -1135,17 +1135,6 @@
       "description": "AsuraComic - Manga platform."
     },
     {
-      "id": "readcomiconline",
-      "name": "ReadComicOnline",
-      "url": "https://rcostation.xyz/",
-      "category": "manga",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "ReadComicOnline - Manga platform."
-    },
-    {
       "id": "mangahub",
       "name": "MangaHub",
       "url": "https://mangahub.io/",
@@ -1533,7 +1522,7 @@
     {
       "id": "playfy",
       "name": "PlayFy",
-      "url": "https://playfy.live/",
+      "url": "https://playfy.net/",
       "category": "apps",
       "region": [
         "Global"

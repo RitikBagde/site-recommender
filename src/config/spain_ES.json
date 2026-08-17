@@ -99,18 +99,6 @@
       "enabled": true
     },
     {
-      "id": "veranimeonline",
-      "name": "veranimeonline",
-      "url": "https://veranimeonline.co/",
-      "category": "anime",
-      "region": [
-        "ES"
-      ],
-      "paymentModel": "free",
-      "description": "veranimeonline - Anime platform.",
-      "enabled": true
-    },
-    {
       "id": "mangavault",
       "name": "MangaVault",
       "url": "https://mangavault.lat/",
