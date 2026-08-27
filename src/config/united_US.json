@@ -476,17 +476,6 @@
       "description": "popcorn - Movies & Shows platform."
     },
     {
-      "id": "cineby",
-      "name": "Cineby",
-      "url": "https://www.cineby.at/",
-      "category": "movies",
-      "region": [
-        "Global"
-      ],
-      "paymentModel": "free",
-      "description": "Cineby - Movies & Shows platform."
-    },
-    {
       "id": "nepu",
       "name": "Nepu",
       "url": "https://nepu.to/",

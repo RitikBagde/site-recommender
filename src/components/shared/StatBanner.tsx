@@ -71,9 +71,9 @@ export function StatBanner({
             <p className="text-xs font-medium uppercase tracking-wide text-muted">
               WhereWatch Directory
             </p>
-            <h1 className="text-4xl font-black tracking-tight lg:text-5xl">
+            <h2 className="text-4xl font-black tracking-tight lg:text-5xl">
               Discover Platforms
-            </h1>
+            </h2>
           </div>
         </div>
 

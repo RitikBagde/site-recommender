@@ -93,6 +93,14 @@ const jsonLd = {
   inLanguage: "en-US",
   applicationCategory: "Directory",
   operatingSystem: "All",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://wherewatch.in/?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
 };
 
 export default function RootLayout({

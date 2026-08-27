@@ -34,7 +34,7 @@ export function HeroBanner() {
       <div className="relative z-20 mx-auto flex h-full max-w-[1600px] flex-col justify-center px-4 py-8 lg:px-6">
         <motion.span {...fadeUp(0)} className="mb-3 block text-[10px] font-inter uppercase tracking-[0.25em] text-white/80 sm:text-xs">
           <Crown className="mr-2 inline size-3.5 text-white/80" />
-          WHERE WATCH COLLECTIVE
+          FIND. SELECT. STREAM.
         </motion.span>
 
         <motion.h1
@@ -42,7 +42,7 @@ export function HeroBanner() {
           className="text-3xl font-bold uppercase leading-none tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl"
           style={{ fontFamily: "var(--font-podium)" }}
         >
-          FIND. SELECT. STREAM.
+          Where to Watch Movies, TV Shows &amp; Anime
         </motion.h1>
 
         <motion.p
